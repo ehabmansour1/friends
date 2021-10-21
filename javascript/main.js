@@ -1,16 +1,6 @@
-let span = document.getElementById("box");
 let video = document.getElementById("player");
-span.onclick = function () {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth",
-  });
-  {
-    video.src =
-      "https://ia601408.us.archive.org/26/items/s01e01_202110/s01e01.mp4";
-    video.play();
-  }
-};
+let episode = document.getElementById("episode");
+
 var div = document.getElementById("seasons");
 let toglle = document.getElementById("openseasons");
 function openseasons() {
@@ -19,4 +9,16 @@ function openseasons() {
 function remove() {
   var div = document.getElementById("seasons");
   div.className = "remove";
+}
+
+const countEl = document.getElementById("counter");
+updateVisitCount();
+function updateVisitCount() {
+  fetch(
+    "https://api.countapi.xyz/update/default/7eb1dfa4-0561-46e7-a66b-69a252e8a825/?amount=1"
+  )
+    .then((res) => res.json())
+    .then((res) => {
+      countEl.innerHTML = res.value;
+    });
 }
