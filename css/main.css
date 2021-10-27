@@ -281,6 +281,7 @@ body {
   margin: auto;
   position: relative;
   overflow: hidden;
+Padding: 0px 30px;
 }
 #search-h2::before {
   content: "";
