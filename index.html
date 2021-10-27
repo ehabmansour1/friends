@@ -17,9 +17,10 @@
         </div>
         <div class="search">
           <input type="text" placeholder="Search" />
-          <a href="#"><i class="fal fa-search"></i></a>
+          <div style=" cursor: pointer;" onclick="searchOpen()" id="searchButton" href="#"><i class="fal fa-search"></i></div>
           <a href="#"><i class="fas fa-microphone"></i></i></a>      
         </div>
+        <div class="mobile-search" style=" cursor: pointer;" onclick="searchOpen()" id="searchButton" href="#"><i class="fas fa-search"></i></div>
         <div class="notification">
             <i class="fas fa-video-plus"></i>
             <i class="fas fa-th"></i>
@@ -298,6 +299,10 @@
 
         </div>
     </div>
+        <div class="search-message" id="searchid" onclick="removeserarch()">
+            <i class="fas fa-cogs"></i>
+            <h2 id="search-h2">عذرا , لم يتم تفعيل البحث بعد , يمكنك استخدام قائمة المواسم بجوار شعار الموقع</h2>
+        </div>
         <div class="seasons" id="seasons" onclick="remove()">
             <a href="index.html" class="season">
                 <img  src="images/Friends-Season-1-256.png" alt="">

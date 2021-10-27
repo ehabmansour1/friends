@@ -22,3 +22,11 @@ function updateVisitCount() {
       countEl.innerHTML = res.value;
     });
 }
+var search = document.getElementById("searchid");
+let searchbutton = document.getElementById("searchButton");
+function searchOpen() {
+  search.className = "search-message-open";
+}
+function removeserarch() {
+  search.className = "remove";
+}
