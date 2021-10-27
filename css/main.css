@@ -85,11 +85,6 @@ html {
 }
 .header .container .logo i:hover {
   text-shadow: 0 0 10px black;
-  transform: rotate(90deg);
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
 }
 .header .container .logo img {
   width: 150px;
@@ -175,11 +170,52 @@ html {
   cursor: pointer;
   display: flex;
   margin-bottom: 10px;
+  transition-duration: 0.3s;
+}
+.main .container .list .box .image-holder {
+  width: 55%;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+  background-color: #4f4f4f;
+  height: fit-content;
+}
+.main .container .list .box:hover .image-holder img {
+  transform: scale(1.1);
+}
+.main .container .list .box .image-holder::before {
+  content: "";
+  width: 0%;
+  height: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ededed65;
+  border-radius: 4px;
+  opacity: 0;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .container .list  .image-holder:hover:before {
+  animation: flash 0.7s;
+}
+@keyframes flash {
+  10%,
+  40% {
+    opacity: 1;
+  }
+  100% {
+    width: 200%;
+    height: 200%;
+    opacity: 0;
+  }
 }
 .main .container .list .box img {
-  width: 55%;
-  margin-bottom: 10px;
+  width: 100%;
   border-radius: 4px;
+  transition-duration: 0.3s;
 }
 .main .container .list .box .label {
   min-width: 25px;
@@ -188,6 +224,7 @@ html {
 
 .main .container .list .box .label p.season {
   color: #949494;
+  font-size: 16px;
 }
 body {
   position: relative;
@@ -197,6 +234,8 @@ body {
   top: 65px;
   left: 0;
   backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+
   width: 100%;
   height: 100%;
   text-align: center;
@@ -210,11 +249,17 @@ body {
     opacity: 1;
   }
 }
-.seasons .season {
-  margin-bottom: 30px;
+.season {
+  margin-bottom: 50px;
   display: block;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  text-shadow: 0 0 5px white;
 }
-.seasons .season img {
+.season img {
+  width: 200px;
+  max-width: 100%;
   width: 200px;
   max-width: 100%;
 }
@@ -227,12 +272,22 @@ body {
   left: 0;
   backdrop-filter: blur(10px);
   width: 100%;
-  height: 100%;
+  height: calc(100% - 250px);
   text-align: center;
-  padding: 50px 0 0 0;
   opacity: 0;
   animation: pop 0.3s forwards;
   background-color: rgba(255, 255, 255, 0.61);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-rows: 250px 250px 250px 250px;
+  align-items: flex-start;
+  gap: 50px;
+  padding: 50px 100px;
+}
+@media (max-width: 678px) {
+  .open {
+    display: block;
+  }
 }
 .remove {
   display: none;
@@ -278,7 +333,11 @@ body {
     margin-right: 10px;
   }
   .main .container .player .links i {
-    font-size: 17px;
+    font-size: 19px;
+  }
+  .main .container .player .links {
+    justify-content: space-between;
+    margin-top: 25px;
   }
 }
 .main .container .player .channel {
@@ -338,6 +397,7 @@ body {
   color: black;
   margin: 10px 10px 10px 0;
   transition-duration: 0.3s;
+  color: rgb(112, 112, 112);
 }
 .main .container .player .description i:hover {
   transform: scale(1.2);
@@ -347,9 +407,12 @@ body {
   -o-transform: scale(1.2);
   color: white;
   text-shadow: 0 0 5px black;
+  color: black;
 }
 .main .container .player .description p {
   margin-left: 60px;
+  color: rgb(112, 112, 112);
+  font-size: 15px;
 }
 .main .container .player .description .social {
   margin-left: 60px;
