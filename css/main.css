@@ -278,10 +278,9 @@ body {
 #search-h2 {
   padding-bottom: 30px;
   width: fit-content;
-  margin: auto;
+  margin: 20px;
   position: relative;
   overflow: hidden;
-Padding: 0px 30px;
 }
 #search-h2::before {
   content: "";
