@@ -328,7 +328,7 @@ span.onclick = function () {
     behavior: "smooth",
   });
   {
-    video.src = "";
+    video.src = "https://firebasestorage.googleapis.com/v0/b/linen-creek-254220.appspot.com/o/friends.s08e24.720p.bluray.akwam.net.mp4?alt=media&token=51373b43-0cee-4773-a9e7-d1641ed34e8c";
     video.play();
   }
   {
