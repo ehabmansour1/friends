@@ -7,8 +7,12 @@
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends Arab Lovers</title>
+    <meta name="description" 
+    content="A site for watching friends show , an American sitcom">
+    <link rel="shortcut icon" type="image/jpg" href="images/profile.jpg"/>
   </head>
   <body>
+    <span class="up"><i class="fas fa-arrow-up"></i></span>
     <div class="header">
       <div class="container">
         <div class="logo">
@@ -344,6 +348,10 @@
                 <img src="images/Friends-Season-10-256.png" alt="">
                 <h5 style="font-family: Gabriel; color: white;">season 10</h5>
             </a>
+            <a href="index11.html" class="season" >
+                <img src="images/Friends-256.png" alt="">
+                <h5 style="font-family: Gabriel; color: white;">Friends: The Reunion</h5>
+            </a>
         </div>
         <div class="footer">
             <div class="container">
@@ -352,10 +360,30 @@
                 <a href="https://wa.me/+201119216865"><i class="fab fa-whatsapp"></i></a>
                 <a href="https://www.instagram.com/ehab_mans/"><i class="fab fa-instagram"></i></a>
               </div>
-              <h3>2021 © All rights reserved</h3>
+              <h3>Coded with ❤ By Ehab Mansour</h3>
             </div>
           </div>
     <script src="javascript/main.js"></script>
     <script src="javascript/season7-eps.js"></script>
+    <script>
+        let span = document.querySelector(".up");
+    
+    window.onscroll = function () {
+      // console.log(this.scrollY);
+      // if (this.scrollY >= 1000) {
+      //   span.classList.add("show");
+      // } else {
+      //   span.classList.remove("show");
+      // }
+      this.scrollY >= 500 ? span.classList.add("show") : span.classList.remove("show");
+    };
+    
+    span.onclick = function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    };
+    </script>
   </body>
 </html>

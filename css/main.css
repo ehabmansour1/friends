@@ -2,6 +2,7 @@
 :root {
   --main-color: white;
 }
+/* end variables */
 @font-face {
   font-family: "Gabriel";
   src: url("./fonts/SFAtarianSystem.ttf") format("embedded-opentype"),
@@ -18,8 +19,6 @@
   font-family: "stc";
   src: url("../fonts/STC-Regular.woff") format("woff");
 }
-/* end variables */
-
 /* start global rules */
 * {
   -webkit-box-sizing: border-box;
@@ -65,12 +64,6 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
-.gridy {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  padding: 25px;
-  grid-gap: 20px;
-}
 /* End Global Rules */
 .header {
   padding-top: 15px;
@@ -100,10 +93,12 @@ html {
 .header .container .logo img {
   width: 200px;
   margin-left: 15px;
+  margin-right: 15px;
 }
 @media (max-width: 767px) {
   .header .container .logo img {
     width: 150px;
+
   }
 }
 .header .search {
@@ -112,7 +107,6 @@ html {
   align-items: center;
 }
 .header .search input {
-  /* padding: 5px; */
   width: 75%;
   padding: 6px 25px 6px 10px;
   border: 1px solid rgb(219, 219, 219);
@@ -190,7 +184,6 @@ html {
 .main .container .player video {
   width: 100%;
   border-radius: 5px;
-  /* max-height: 400px; */
 }
 @media (max-width: 768px) {
   .main .container {
@@ -198,7 +191,6 @@ html {
     flex-direction: column;
   }
 }
-
 .main .container .list .box {
   cursor: pointer;
   display: flex;
@@ -265,7 +257,6 @@ body {
   position: relative;
 }
 /* start search  */
-
 .search-message-open {
   display: block !important;
   position: absolute;
@@ -284,7 +275,7 @@ body {
   background-color: #21273896;
 }
 #search-h2 {
-  padding: 0px 20px 40px ;
+  padding: 0px 20px 40px;
   width: fit-content;
   margin: auto;
   position: relative;
@@ -314,22 +305,18 @@ body {
   bottom: 0;
   background-color: rgb(206, 94, 159);
   animation: to-right 5s linear infinite;
-  /* transition-duration: 5s; */
   left: 0%;
 }
 @keyframes to-right {
-  33% {
+  25% {
     left: 100%;
   }
-  66% {
+  75% {
     left: -50%;
   }
   100% {
     left: 0;
   }
-  /* 100% {
-    right: 0;
-  } */
 }
 .remove {
   display: none;
@@ -348,7 +335,6 @@ body {
   left: 0;
   backdrop-filter: blur(10px);
   -moz-backdrop-filter: -moz-blur(10px);
-
   width: 100%;
   height: 100%;
   text-align: center;
@@ -392,11 +378,10 @@ body {
   background-color: #21273896;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  grid-template-rows: 250px 250px 250px 250px;
+  grid-template-rows: 250px 250px 250px 250px 250px;
   align-items: flex-start;
   gap: 50px;
   padding: 50px 100px;
-  
 }
 @media (max-width: 678px) {
   .open {
@@ -525,8 +510,8 @@ body {
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
   color: white;
-  text-shadow: 0 0 5px black;
-  color: black;
+  text-shadow: 0 0 5px white;
+  color: white;
 }
 .main .container .player .description p {
   margin-left: 60px;
@@ -608,4 +593,65 @@ body {
 /* end footer  */
 * {
   user-select: none;
+}
+.last-list {
+  height: 1000px;
+}
+@media (max-width: 1170px) {
+  .last-list {
+    height: 1500px;
+  }
+}
+@media (max-width: 990px) {
+  .last-list {
+    height: 2000px;
+  }
+}
+
+@media (max-width: 678px) {
+  .last-list {
+    height: 2600px;
+  }
+}
+/* start up */
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: -30px;
+  background-color: white;
+  color: #181c28;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 7px;
+  border-radius: 4px;
+  font-family: Arial, Tahoma;
+  cursor: pointer;
+  transition: 0.2s;
+  z-index: 5;
+}
+.up:hover {
+  box-shadow: 0 0 5px white;
+}
+.up.show {
+  right: 10px;
+}
+/* end up */
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1e2129;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #181c28;
 }
