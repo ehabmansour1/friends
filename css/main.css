@@ -618,6 +618,7 @@ body {
 }
 /* start up */
 .up {
+  display: none;
   position: fixed;
   bottom: 10px;
   right: -30px;
