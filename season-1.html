@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends Arab Lovers - friends season 1</title>
+    <meta
+      name="description"
+      content=" موقع محبي مسلسل فريندز العرب , مشاهدة مسلسل فريندز الموسم الاول مترجم كامل بدون اعلانات"
+    />
+    <link rel="shortcut icon" type="image/jpg" href="images/profile.webp" />
+    <script src="javascript/player.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/player.css" />
+  </head>
+  <body>
+    <img
+      style="position: absolute"
+      src="https://iplogger.org/1kAMu7.gif"
+      alt=""
+    />
+    <div id="preloader">
+      <div class="loader">
+        <svg viewBox="0 0 80 80">
+          <circle id="test" cx="40" cy="40" r="32"></circle>
+        </svg>
+      </div>
+    </div>
+    <!-- <div id="contact" class="contact">
+      <i id="exit" class="fa-solid fa-xmark"></i>
+      <h5>
+        يسعدنا تلقي ارائك في الموقع والاخطاء المراد تعديلها في التحديث القادم
+      </h5>
+      <form action="">
+        <input id="telegram" type="text" />
+      </form>
+      <button id="butt">ارسال</button>
+    </div> -->
+    <span class="up"><i class="fas fa-arrow-up"></i></span>
+    <div class="header">
+      <div class="container">
+        <div class="logo">
+          <i class="fas fa-bars" onclick="openseasons()" id="openseasons"></i>
+          <a href="index.html"><img src="images/logo.webp" alt="" /></a>
+        </div>
+        <div class="notification">
+          <a href="https://www.facebook.com/friendsarabslovers"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="http://t.me/friendsarablovers"
+            ><i class="fab fa-telegram-plane"></i
+          ></a>
+          <img src="images/profile.webp" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="main" style="min-height: calc(100vh - 278px)">
+      <div class="container">
+        <div class="player">
+          <video id="player" playsinline controls>
+            <source
+              src="https://www.4shared.com/web/directDownload/JGdBzFE6ea/2vEBSlaP.ab44314525d10d1cf83f83ff64323a87
+            "
+            />
+            <!-- Captions are optional -->
+            <track
+              id="en"
+              kind="captions"
+              label="English captions"
+              src=""
+              srclang="en"
+            />
+            <track
+              id="ar"
+              kind="captions"
+              label="Arabic captions"
+              src=""
+              srclang="ar"
+              default
+            />
+          </video>
+          <p class="title">
+            Friends Season 1 Episode <span id="episode"></span>
+          </p>
+          <div class="counter">
+            <p id="counter"></p>
+            <p>Views . Oct 25, 2021</p>
+          </div>
+          <div class="links">
+            <div class="like">
+              <i class="fal fa-thumbs-up"></i>
+              <span>1.1k</span>
+            </div>
+            <div class="dislike">
+              <i class="fal fa-thumbs-down"></i>
+              <span>1</span>
+            </div>
+            <div class="shuffle">
+              <i class="fa-solid fa-shuffle"></i>
+              <span>Random</span>
+            </div>
+            <div class="save"></div>
+            <i class="fal fa-ellipsis-h"></i>
+          </div>
+          <div class="channel">
+            <div class="col-1">
+              <img src="images/profile.webp" alt="" />
+              <div class="text">
+                <h1>Friends Arab Lovers</h1>
+                <p>100K subscribers</p>
+              </div>
+            </div>
+            <div class="col-2">
+              <button>Subscribe</button>
+              <i class="far fa-bell"></i>
+            </div>
+          </div>
+          <div class="description">
+            <p style="display: none">موقع مسلسل فريندز</p>
+            <p>موقع محبي مسلسل فريندز العرب</p>
+            <p>Friends Arab Lovers</p>
+            <p>مسلسل فريندز</p>
+            <p>All Credits To Friends Arab Lovers Page</p>
+            <div class="social">
+              <a href="https://www.facebook.com/friendsarabslovers"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="http://t.me/friendsarablovers"
+                ><i class="fab fa-telegram-plane"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="list">
+          <div onclick="myFunction()" class="box" id="ep1">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652581/Friends.S01E01.360p.BluRay.MYCIMA.TV_wrygfk.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 1</p>
+              <p>The One Where Monica Gets a Roommate</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep2">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652576/Friends.S01E02.360p.BluRay.MYCIMA.TV_itcywi.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 2</p>
+              <p>The One with the Sonogram at the End</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep3">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652576/Friends.S01E03.360p.BluRay.MYCIMA.TV_mmp5u6.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 3</p>
+              <p>The One with the Thumb</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep4">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652583/Friends.S01E04.360p.BluRay.MYCIMA.TV_xzo7lg.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 4</p>
+              <p>The One with George Stephanopoulos</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep5">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652581/Friends.S01E05.360p.BluRay.MYCIMA.TV_cjgogv.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 5</p>
+              <p>The One with the East German Laundry Detergent</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep6">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652577/Friends.S01E06.360p.BluRay.MYCIMA.TV_k6i3dr.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 6</p>
+              <p>The One with the Butt</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep7">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652582/Friends.S01E07.360p.BluRay.MYCIMA.TV_ynjyfo.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 7</p>
+              <p>The One with the Blackout</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep8">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652573/Friends.S01E08.360p.BluRay.MYCIMA.TV_xdtjmq.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 8</p>
+              <p>The One Where Nana Dies Twice</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep9">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652573/Friends.S01E09.360p.BluRay.MYCIMA.TV_-_Copy_new_v16ep8.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 9</p>
+              <p>The One Where Underdog Gets Away</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep10">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652575/Friends.S01E10.360p.BluRay.MYCIMA.TV_-_Copy_new_gu6xik.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 10</p>
+              <p>The One with the Monkey</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep11">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652577/Friends.S01E11.360p.BluRay.MYCIMA.TV_xowoje.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 11</p>
+              <p>The One with Mrs. Bing</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep12">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652576/Friends.S01E12.360p.BluRay.MYCIMA.TV_imgelp.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 12</p>
+              <p>The One with the Dozen Lasagnas</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep13">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652580/Friends.S01E13.360p.BluRay.MYCIMA.TV_hceq5x.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 13</p>
+              <p>The One with the Boobies</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep14">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652583/Friends.S01E14.360p.BluRay.MYCIMA.TV_tck3wn.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 14</p>
+              <p>The One with the Candy Hearts</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep15">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652586/Friends.S01E15.360p.BluRay.MYCIMA.TV_rdccbb.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 15</p>
+              <p>The One with the Stoned Guy</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep16">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652586/Friends.S01E16.360p.BluRay.MYCIMA.TV_fqvert.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 16</p>
+              <p>The One with Two Parts: Part 1</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep17">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652587/Friends.S01E17.360p.BluRay.MYCIMA.TV_kwmgqh.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 17</p>
+              <p>The One with Two Parts: Part 2</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep18">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652592/Friends.S01E18.360p.BluRay.MYCIMA.TV_t36x5j.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 18</p>
+              <p>The One with All the Poker</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep19">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652588/Friends.S01E19.360p.BluRay.MYCIMA.TV_eufojl.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 19</p>
+              <p>The One Where the Monkey Gets Away</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep20">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652587/Friends.S01E20.360p.BluRay.MYCIMA.TV_oovx2d.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 20</p>
+              <p>The One with the Evil Orthodontist</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep21">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652592/Friends.S01E21.360p.BluRay.MYCIMA.TV_qn869e.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 21</p>
+              <p>The One with the Fake Monica</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep22">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652592/Friends.S01E22.360p.BluRay.MYCIMA.TV_dggudq.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 22</p>
+              <p>The One with the Ick Factor</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep23">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652593/Friends.S01E23.360p.BluRay.MYCIMA.TV_vipwlt.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 23</p>
+              <p>The One with the Birth</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+          <div onclick="myFunction()" class="box" id="ep24">
+            <div class="image-holder">
+              <img
+                src="https://res.cloudinary.com/djomekotc/video/upload/v1635652593/Friends.S01E24.360p.BluRay.MYCIMA.TV_sp2ksd.webp"
+                alt=""
+              />
+            </div>
+            <div class="label">
+              <p class="episode">Episode 24</p>
+              <p>The One Where Rachel Finds Out</p>
+              <p class="season">Season 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="search-message" id="searchid" onclick="removeserarch()">
+      <i class="fas fa-cogs"></i>
+      <h2 id="search-h2">
+        عذرا , لم يتم تفعيل البحث بعد , يمكنك استخدام قائمة المواسم بجوار شعار
+        الموقع
+      </h2>
+    </div>
+    <div class="seasons" id="seasons" onclick="remove()">
+      <a href="season-1.html" class="season">
+        <img src="images/Friends-Season-1-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 1</h5>
+      </a>
+      <a href="season-2.html" class="season">
+        <img src="images/Friends-Season-2-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 2</h5>
+      </a>
+      <a href="season-3.html" class="season">
+        <img src="images/Friends-Season-3-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 3</h5>
+      </a>
+      <a href="season-4.html" class="season">
+        <img src="images/Friends-Season-4-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 4</h5>
+      </a>
+      <a href="season-5.html" class="season">
+        <img src="images/Friends-Season-5-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 5</h5>
+      </a>
+      <a href="season-6.html" class="season">
+        <img src="images/Friends-Season-6-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 6</h5>
+      </a>
+      <a href="season-7.html" class="season">
+        <img src="images/Friends-Season-7-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 7</h5>
+      </a>
+      <a href="season-8.html" class="season">
+        <img src="images/Friends-Season-8-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 8</h5>
+      </a>
+      <a href="season-9.html" class="season">
+        <img src="images/Friends-Season-9-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 9</h5>
+      </a>
+      <a href="season-10.html" class="season">
+        <img src="images/Friends-Season-10-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Season 10</h5>
+      </a>
+      <a href="reunion.html" class="season">
+        <img src="images/Friends-256.webp" alt="" />
+        <h5 style="font-family: Gabriel; color: white">Friends: The Reunion</h5>
+      </a>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="links">
+          <a href="https://www.facebook.com/ehab.mansour.3975"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="https://wa.me/+201119216865"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+          <a href="https://www.instagram.com/ehab_mans/"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </div>
+        <h3>Coded with ❤ By Ehab Mansour</h3>
+      </div>
+    </div>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/season1-eps.js"></script>
+  </body>
+</html>
