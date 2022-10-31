@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E01-The%20One%20Where%20No%20One%20Proposes.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/vW1MOaboea/2vEBSlaP.5766f8285b2df0a25b4750c4c2fd77f7";
     video.play();
   }
   {
@@ -27,7 +27,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E02-The%20One%20Where%20Emma%20Cries.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/yT0lgqQfea/2vEBSlaP.1aa2d72760ecf72028a319bcc04b7ad2";
     video.play();
   }
   {
@@ -48,7 +48,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E03-The%20One%20with%20the%20Pediatrician.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Washjlz2iq/2vEBSlaP.f1a27b7d406f1a70ea713a57d8656d1d";
     video.play();
   }
   {
@@ -69,7 +69,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E04-The%20One%20with%20the%20Sharks.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/YLVXjUtMea/2vEBSlaP.e8dbe85eccbdc05488045408ec9fb713";
     video.play();
   }
   {
@@ -90,7 +90,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E05-The%20One%20with%20Phoebes%20Birthday%20Dinner.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Wd0G8IpZea/2vEBSlaP.ca9569d39c4bd6f5fd0e853334817b47";
     video.play();
   }
   {
@@ -111,7 +111,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E06-The%20One%20with%20the%20Male%20Nanny.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/qg8WQGJoea/2vEBSlaP.687f605c36df216953350ed5fe8554be";
     video.play();
   }
   {
@@ -132,7 +132,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E07-The%20One%20with%20Ross%20Inappropriate%20Song.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/8wOPCVb7iq/2vEBSlaP.1e174cfcd44475a192c45d458d93740c";
     video.play();
   }
   {
@@ -153,7 +153,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E08-The%20One%20with%20Rachels%20Older%20Sister.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/8NH1FT0Biq/2vEBSlaP.3f3031aba990d8e08bcef35ffc53ae22";
     video.play();
   }
   {
@@ -174,7 +174,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E09-The%20One%20with%20Rachels%20Phone%20Number.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/g7paYuNqiq/2vEBSlaP.72564c792583cee6a654d074f22de0d4";
     video.play();
   }
   {
@@ -195,7 +195,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E10-The%20One%20with%20Christmas%20in%20Tulsa.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/FCgPkMHMiq/2vEBSlaP.d99e54e905186c9c31316fa436931c5e";
     video.play();
   }
   {
@@ -216,7 +216,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E11-The%20One%20Where%20Rachel%20Goes%20Back%20to%20Work.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/OG0gAbPAiq/2vEBSlaP.88719999cde85ad2d507855a74a1e433";
     video.play();
   }
   {
@@ -237,7 +237,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E12-The%20One%20with%20Phoebes%20Rats.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/omT2u_e5ea/2vEBSlaP.90e5b4dbbebef1f43b27695d7df2cdee";
     video.play();
   }
   {
@@ -258,7 +258,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E13-The%20One%20Where%20Monica%20Sings.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/quyf2POHea/2vEBSlaP.c8f88b53e023feddf841eb8259f2e084";
     video.play();
   }
   {
@@ -279,7 +279,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E14-The%20One%20with%20the%20Blind%20Dates.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ka-WbFt0iq/2vEBSlaP.7de1fd25713f38383358df3e62a9b255";
     video.play();
   }
   {
@@ -300,7 +300,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E15-The%20One%20with%20the%20Mugging.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/H7bISZp_ea/2vEBSlaP.e71a395e8d6c1d2863f2922a3d5315b8";
     video.play();
   }
   {
@@ -321,7 +321,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E16-The%20One%20with%20the%20Boob%20Job.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/La-TEUIRea/2vEBSlaP.7a4b456ffe86cbbd099f5bd1556cf70b";
     video.play();
   }
   {
@@ -342,7 +342,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E17-The%20One%20with%20the%20Memorial%20Service.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/OwSVXjtGea/2vEBSlaP.309f52fa0218e49b8d102c8f6a2cfec7";
     video.play();
   }
   {
@@ -363,7 +363,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E18-The%20One%20with%20the%20Lottery.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/3KtWnxt3ea/2vEBSlaP.9005b841e038cd77e0f231ad60ed1a06";
     video.play();
   }
   {
@@ -384,7 +384,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E19-The%20One%20with%20Rachels%20Dream.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ijVVOjdEea/2vEBSlaP.35247ec05a25314dfa3d88cb076772f9";
     video.play();
   }
   {
@@ -405,7 +405,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E20-The%20One%20with%20the%20Soap%20Opera%20Party.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/xKOSTBs_iq/2vEBSlaP.50c86d2d05b5fa2fd4bce6b47eb7e76f";
     video.play();
   }
   {
@@ -426,7 +426,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E21-The%20One%20with%20the%20Fertility%20Test.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/X3MF7k_Yiq/2vEBSlaP.1c7f92909e303b838b69a2714377a043";
     video.play();
   }
   {
@@ -447,7 +447,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E22-The%20One%20with%20the%20Donor.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/_1V36iLsea/2vEBSlaP.cbacf7d722c78489cb6c2d61ff299214";
     video.play();
   }
   {
@@ -468,7 +468,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-09-e-23-24-the-one-in-barbados.-720p.bluray-sujaidr/Friends.S09E23%2C24-The%20One%20in%20Barbados.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/u1MsB67Qiq/2vEBSlaP.962785bf2ccbe58ab820d08d979e74b4";
     video.play();
   }
   {
@@ -485,7 +485,7 @@ span.onclick = function () {
 
 let shuffle = document.querySelector(".shuffle");
 shuffle.onclick = function () {
-  let rnd = Math.floor(Math.random() * 23 + 1);
+  let rnd = Math.floor(Math.random() * 24 + 1);
   console.log(rnd);
   span = document.getElementById(`ep${rnd}`);
   span.onclick();

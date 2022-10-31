@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e01.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/4xWrmSlhea/2vEBSlaP.99e0df3e2ac80db635ccc0a0ba0a4d0a";
     video.play();
   }
   {
@@ -27,7 +27,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e02.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/n1r8uugjiq/2vEBSlaP.561a1e99a23c4801173acf6b945f5c2a";
     video.play();
   }
   {
@@ -48,7 +48,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e03.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/4Hp_m_g3iq/2vEBSlaP.65b0a629abec9058a045fc18fb1bc91e";
     video.play();
   }
   {
@@ -69,7 +69,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e04.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/r_D8HswSiq/2vEBSlaP.b70411d0412aa5b6f360b7deae21e92e";
     video.play();
   }
   {
@@ -90,7 +90,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e05.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/egdSMpI9iq/2vEBSlaP.14145ee94e70d8f9467ee27a5dcdeb1c";
     video.play();
   }
   {
@@ -111,7 +111,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e06.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/2leNP_q-iq/2vEBSlaP.f050306f7300c7ce5c0260083fb07b64";
     video.play();
   }
   {
@@ -132,7 +132,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e07.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/5qONBeXkea/2vEBSlaP.78ad8ddd0cd9d4f1371d5e8749e34496";
     video.play();
   }
   {
@@ -153,7 +153,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e08.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/wKzxHaDmiq/2vEBSlaP.e1c32d59dd270ad548b2b268531afade";
     video.play();
   }
   {
@@ -174,7 +174,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e09.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/D1ULNLWDea/2vEBSlaP.c8533ef454eb5aec7dfbc8315a6da849";
     video.play();
   }
   {
@@ -195,7 +195,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e10.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Um-kp55xea/2vEBSlaP.65b4affb1aa4f8f5b98128010cde75f9";
     video.play();
   }
   {
@@ -216,7 +216,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e11.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/FmSLGKamiq/2vEBSlaP.a41590a0508fb0dc9928e030ce7c5706";
     video.play();
   }
   {
@@ -237,7 +237,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e12.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/UnHmEvQBea/2vEBSlaP.9d2fe4d1ac53eaf8e040d91f47b7c73d";
     video.play();
   }
   {
@@ -258,7 +258,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e13.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/llrxlb9wiq/2vEBSlaP.1ec8f1d11544c0bf24c98de50ac96dcd";
     video.play();
   }
   {
@@ -279,7 +279,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e14.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/5Qy8YsMWea/2vEBSlaP.ae9bce22fd084edabb6ba8e973ea7d6a";
     video.play();
   }
   {
@@ -300,7 +300,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e15.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ff7pll72ea/2vEBSlaP.f769a433677da586ffda7e4c5e42dedf";
     video.play();
   }
   {
@@ -321,7 +321,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s10e17e18.720p.bluray.sujaidr/friends.s10e16.720p.bluray.sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/i1ODwMUPiq/2vEBSlaP.363b413b03ae2d3f3f920411d6961d93";
     video.play();
   }
   {
@@ -359,7 +359,7 @@ span.onclick = function () {
 
 let shuffle = document.querySelector(".shuffle");
 shuffle.onclick = function () {
-  let rnd = Math.floor(Math.random() * 17 + 1);
+  let rnd = Math.floor(Math.random() * 24 + 1);
   console.log(rnd);
   span = document.getElementById(`ep${rnd}`);
   span.onclick();

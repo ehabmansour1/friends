@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e01.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/2dTGC8alea/2vEBSlaP.080dae224d8b5b827f21c6cb0d168a27";
     video.play();
   }
   {
@@ -23,7 +23,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e02.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/g_uojACMiq/2vEBSlaP.798baf8c07ff55cc4c25ba7d13e756ae";
     video.play();
   }
   {
@@ -44,7 +44,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e03.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/eswqq6mOea/2vEBSlaP.366348ea1d45ec1d297ea29403ae3385";
     video.play();
   }
   {
@@ -65,7 +65,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e04.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/DYWNPWsoiq/2vEBSlaP.30ac2e9b316b074b193dcda55421557f";
     video.play();
   }
   {
@@ -86,7 +86,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e05.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/nQBz8kpZiq/2vEBSlaP.b535112342d0f4cc00c954a6ed9aeb08";
     video.play();
   }
   {
@@ -107,7 +107,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e06.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/XGM8z9xAea/2vEBSlaP.904ecba50dff5a7353808fbe82fb7501";
     video.play();
   }
   {
@@ -128,7 +128,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e07.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/bu0hNS6niq/2vEBSlaP.bf75515e7a4a28f336ba74b3f808a402";
     video.play();
   }
   {
@@ -149,7 +149,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e08.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/eE2J6SHsea/2vEBSlaP.75b519e766c944d93ec4c523f4ad32a1";
     video.play();
   }
   {
@@ -170,7 +170,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e09.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/3-Gbtl54ea/2vEBSlaP.aa37078c21bd4280fc693f112657e003";
     video.play();
   }
   {
@@ -191,7 +191,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e10.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/8DAxELUBea/2vEBSlaP.c8095fe270b0bb855ac82f049d426fdc";
     video.play();
   }
   {
@@ -212,7 +212,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e11.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Isvs8xndea/2vEBSlaP.c30632962ec002e346721c2d008078bf";
     video.play();
   }
   {
@@ -233,7 +233,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e12.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/R89-3D4Hiq/2vEBSlaP.d2f1ccba26cea70fafdf24969597e4c0";
     video.play();
   }
   {
@@ -254,7 +254,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e13.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ZqUvSjoFiq/2vEBSlaP.39a52cb3d4d3a7ae04306818bb51f47b";
     video.play();
   }
   {
@@ -275,7 +275,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e14.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/GxV3VP2Fiq/2vEBSlaP.8124d68822ca2e77dfd5c888969233f4";
     video.play();
   }
   {
@@ -296,7 +296,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e15.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/fg10--LZiq/2vEBSlaP.5e216790c5142582b87d1460558c0a5b";
     video.play();
   }
   {
@@ -317,7 +317,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e16.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/kz_ovDCziq/2vEBSlaP.1290081685dd5e6901f9c50715818f3e";
     video.play();
   }
   {
@@ -338,7 +338,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e17.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/yjXAFD_Biq/2vEBSlaP.00d3515fb7da2dde11b8e0e486457345";
     video.play();
   }
   {
@@ -359,7 +359,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e18.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/WBBhQNQ-ea/2vEBSlaP.9f5d161aedd8e7474cf0f513cde40e93";
     video.play();
   }
   {
@@ -401,7 +401,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e20.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/V1LgTzAFiq/2vEBSlaP.36ed51413ecabcccc02cf0d9c10e618b";
     video.play();
   }
   {
@@ -422,7 +422,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e21.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/fYclTGBpea/2vEBSlaP.b5b1316a9e791be3b5f4ba7f42753567";
     video.play();
   }
   {
@@ -443,7 +443,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e22.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/TfiDYbGGiq/2vEBSlaP.33869ffcba3d91eba2251b2e6d50751c";
     video.play();
   }
   {
@@ -464,7 +464,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e23.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/i7bOaSceea/2vEBSlaP.b17f126dacbc594a6baca745e86c73ab";
     video.play();
   }
   {
@@ -485,7 +485,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.s01e16.720p.bluray.x264-sujaidr/friends.s01e24.720p.bluray.x264-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/1bgxZp-aea/2vEBSlaP.ea8121fdfb890eb5743ee6ffcd90ce1a";
     video.play();
   }
   {

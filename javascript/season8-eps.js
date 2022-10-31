@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E01-The%20One%20After%20I%20Do.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/pkKHd5_uiq/2vEBSlaP.3e02fe4e83a0d75ef0c1b10d8147c392";
     video.play();
   }
   {
@@ -27,7 +27,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E02-The%20One%20with%20the%20Red%20Sweater.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/xMhEH9ECea/2vEBSlaP.01d490722aa1d618bd99353dd350941b";
     video.play();
   }
   {
@@ -48,7 +48,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E03-The%20One%20Where%20Rachel%20Tells.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/0GIF0xpbea/2vEBSlaP.d070596733623d21b90607db9071d060";
     video.play();
   }
   {
@@ -69,7 +69,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E04-The%20One%20with%20the%20Videotape.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/tg5ESippiq/2vEBSlaP.eba3535c95777671ab9e3872944d9fd6";
     video.play();
   }
   {
@@ -90,7 +90,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E05-The%20One%20with%20Rachels%20Date.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/zongu9izea/2vEBSlaP.5cda9040df570205446c8dd1f07b6b3a";
     video.play();
   }
   {
@@ -111,7 +111,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E06-The%20One%20with%20the%20Halloween%20Party.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/0f9A5iEsea/2vEBSlaP.814cf1b716d4701c2ee25102a47606ab";
     video.play();
   }
   {
@@ -132,7 +132,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E07-The%20One%20with%20the%20Stain.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/SLHHO1pEiq/2vEBSlaP.5e0bb006ca9cab65c409dbea31be887d";
     video.play();
   }
   {
@@ -153,7 +153,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E08-The%20One%20with%20the%20Stripper.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/d4ksL_B9iq/2vEBSlaP.4bd957a65a649f5ef25d26607004a149";
     video.play();
   }
   {
@@ -174,7 +174,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E09-The%20One%20with%20the%20Rumor.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/MCRjy3j6ea/2vEBSlaP.86012785254748b02137728c837bc883";
     video.play();
   }
   {
@@ -195,7 +195,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E10-The%20One%20with%20Monicas%20Boots.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/c6RNlxX2iq/2vEBSlaP.587ef26acb0358661dc1ae513d3c2b24";
     video.play();
   }
   {
@@ -216,7 +216,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E11-The%20One%20with%20the%20Creepy%20Holiday%20Card.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/x42sIjSCiq/2vEBSlaP.20aa267e8e4ef64d6eff84870d04bf9e";
     video.play();
   }
   {
@@ -237,7 +237,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E12-The%20One%20Where%20Joey%20Dates%20Rachel.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/9vEhcpP0ea/2vEBSlaP.3bd7d7502655a540ddc80a8c1b9ad262";
     video.play();
   }
   {
@@ -258,7 +258,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E13-The%20One%20Where%20Chandler%20Takes%20a%20Bath.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/5ToXWQdWea/2vEBSlaP.e03aae14ee755842fb2ecddf4d531c38";
     video.play();
   }
   {
@@ -279,7 +279,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E14-The%20One%20with%20the%20Secret%20Closet.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Da2douOhiq/2vEBSlaP.120a9edf54ca2bc99851a9d842baf4dc";
     video.play();
   }
   {
@@ -300,7 +300,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E15-The%20One%20with%20the%20Birthing%20Video.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ZjtHlV_2iq/2vEBSlaP.504b95c920edc50eb002f8c5ca1945b6";
     video.play();
   }
   {
@@ -321,7 +321,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E16-The%20One%20Where%20Joey%20Tells%20Rachel.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Q-kVZiZqiq/2vEBSlaP.ccf0cc46105ade3659539990d84e9894";
     video.play();
   }
   {
@@ -342,7 +342,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E17-The%20One%20with%20the%20Tea%20Leaves.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/pwdUJ6YSiq/2vEBSlaP.542e8b4d0a0f95f5a324e993ca35c823";
     video.play();
   }
   {
@@ -363,7 +363,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E18-The%20One%20in%20Massapequa.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/0aySzFs6iq/2vEBSlaP.676d3e8f58527f50b615b8c036056804";
     video.play();
   }
   {
@@ -384,7 +384,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E19-The%20One%20with%20Joeys%20Interview.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/aTFn_S6tea/2vEBSlaP.b6eba3c3291475058cf6f297079c560a";
     video.play();
   }
   {
@@ -405,7 +405,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E20-The%20One%20with%20the%20Baby%20Shower.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/ejyNVoXViq/2vEBSlaP.ca8a6cad04508b85167e7e091bdce095";
     video.play();
   }
   {
@@ -426,7 +426,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E21-The%20One%20with%20the%20Cooking%20Class.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/uahhjkzMea/2vEBSlaP.8722ce96c5946aedc5073e13a21842ed";
     video.play();
   }
   {
@@ -447,7 +447,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E22-The%20One%20Where%20Rachel%20is%20Late.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/xFkGRA_Uea/2vEBSlaP.699e017805c2e8a125a90e3ee8796489";
     video.play();
   }
   {
@@ -468,7 +468,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E23-The%20One%20Where%20Rachel%20Has%20a%20Baby-Part%201.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/Bqnadx30ea/2vEBSlaP.c12dfb190b06f7a56d9aaaaf968bb20b";
     video.play();
   }
   {
@@ -489,7 +489,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://archive.org/download/friends.-s-08-e-23-the-one-where-rachel-has-a-baby-part-1.720p.bluray-sujaidr/Friends.S08E24-The%20One%20Where%20Rachel%20Has%20a%20Baby-Part%202.720p.bluray-sujaidr.mkv";
+      "https://www.4shared.com/web/directDownload/TykKcwGKiq/2vEBSlaP.7b1361d42deb73fbcf88df49464ce63b";
     video.play();
   }
   {
