@@ -516,9 +516,7 @@ epis.forEach((epi, i) => {
       behavior: "smooth",
     });
     {
-      video.src = `https://f004.backblazeb2.com/file/friendss/s01/s01+(${
-        i + 1
-      }).mkv`;
+      video.src = `https://s3.tebi.io/friends/s01/s01%20%28${i + 1}%29.mkv`;
       video.play();
     }
     {
@@ -539,7 +537,7 @@ shuffle.onclick = function () {
   let rnd = Math.floor(Math.random() * 24 + 1);
   console.log(rnd);
   {
-    video.src = `https://f004.backblazeb2.com/file/friendss/s01/s01+(${rnd}).mkv`;
+    video.src = `https://s3.tebi.io/friends/s01/s01%20%28${rnd}%29.mkv`;
     video.play();
   }
   {
