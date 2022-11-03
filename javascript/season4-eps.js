@@ -1,4 +1,4 @@
-span = document.getElementById("ep1");
+/*span = document.getElementById("ep1");
 span.onclick = function () {
   window.scrollTo({
     top: 0,
@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/2nqgqYjOea/2vEBSlaP.aa29a7aa1183f3c459070529fc54b997";
+      "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e01.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -27,7 +27,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/HFrGvsqPiq/2vEBSlaP.d5c214435c89788da918d34241f4c019";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e02.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -48,7 +48,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/JnL_bhy0ea/2vEBSlaP.8e123003b9450a838df41473d05b8d9f";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e03.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -69,7 +69,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/GspOsnIyea/2vEBSlaP.555abd8ca2346749b6ea209018c72f56";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e04.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -90,7 +90,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/f4vlUcRVea/2vEBSlaP.fdf0829d1ec3494ad2500c512a36f2a9";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e05.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -111,7 +111,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/uwP6x325ea/2vEBSlaP.cb2218333e82185bc0826357e0f06cb6";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e06.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -132,7 +132,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/TmKq0vmHiq/2vEBSlaP.012a6b424b42f32355c0c06e4303daad";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e07.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -153,7 +153,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/agbBP8Eoea/2vEBSlaP.e54addb493204f5fdf160fcae65293fc";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e08.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -174,7 +174,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/ZzxodY7Kea/2vEBSlaP.5c6e2aacf12df7fbcf18a0dfea991540";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e09.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -195,7 +195,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/nOqQkWIgiq/2vEBSlaP.47c86565e631364bf85c61e98c848066";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e10.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -216,7 +216,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/3yr9kGNgiq/2vEBSlaP.37e4090591e1adb6885678d1e61bdd63";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e11.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -237,7 +237,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/Uxm0SkfViq/2vEBSlaP.9e5fe875959353dbef5c491174f17347";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e12.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -258,7 +258,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/-ViUMPJDiq/2vEBSlaP.6900682825d6365136b7116dc467234d";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e13.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -279,7 +279,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/c4FIoVG3ea/2vEBSlaP.f26405c541a1ba14be1b1d536b51ea06";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e14.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -300,7 +300,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/oJk5TzwFiq/2vEBSlaP.5b7dc85bec34908d66917b0402d5258f";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e15.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -321,7 +321,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/nwZ1UNL_iq/2vEBSlaP.554d38676759e06bf0bc4f998d305de7";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e16.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -342,7 +342,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/yZ6eyvjAea/2vEBSlaP.521279631afd3bead0fb211ad63229a7";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e17.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -363,7 +363,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/Uuzk2SQrea/2vEBSlaP.f34873ce79d66c357db803dbbff8493f";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e18.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -384,7 +384,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/ujo-4PhIea/2vEBSlaP.7793adc45a83013c9828e24d7cb229e5";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e19.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -405,7 +405,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/fdEART-Eea/2vEBSlaP.85b657f08a897fb51768091099792e4b";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e20.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -426,7 +426,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/D3tr8EmZea/2vEBSlaP.dbcac00205ed98f13788c0b5c5a2fad1";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e21.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -447,7 +447,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/cr8640gsea/2vEBSlaP.a13f3a7298dd4374fa8439374c10183b";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e22.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -468,7 +468,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/jDgQkRI2iq/2vEBSlaP.a64a1ee7fbfbbb831d1c05957667aa46";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e23.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -489,7 +489,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/29GOMrIDea/2vEBSlaP.44ef031ac57a9f075c049a4706d7ded6";
+    "https://archive.org/download/friends.s04e03.720p.bluray.x264-sujaidr_202207/friends.s04e24.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -510,4 +510,49 @@ shuffle.onclick = function () {
   console.log(rnd);
   span = document.getElementById(`ep${rnd}`);
   span.onclick();
+};*/
+let epis = document.querySelectorAll(".list > div");
+epis.forEach((epi, i) => {
+  epi.addEventListener("click", function () {
+    console.log(i + 1);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    {
+      video.src = `https://archive.org/download/s-04-3/s04%20%28${
+        i + 1
+      }%29.mkv`;
+      video.play();
+    }
+    {
+      episode.innerHTML = i + 1;
+    }
+    document.getElementById(
+      "en"
+    ).src = `assets/s04 en/s04 (${episode.innerHTML}).vtt`;
+    document.getElementById(
+      "ar"
+    ).src = `assets/s04 ar/s04 (${episode.innerHTML}).vtt`;
+  });
+});
+// ---------------------random---------------------
+
+let shuffle = document.querySelector(".shuffle");
+shuffle.onclick = function () {
+  let rnd = Math.floor(Math.random() * 24 + 1);
+  console.log(rnd);
+  {
+    video.src = `https://archive.org/download/s-04-3/s04%20%28${rnd}%29.mkv`;
+    video.play();
+  }
+  {
+    episode.innerHTML = rnd;
+  }
+  document.getElementById(
+    "en"
+  ).src = `assets/s04 en/s04 (${episode.innerHTML}).vtt`;
+  document.getElementById(
+    "ar"
+  ).src = `assets/s04 ar/s04 (${episode.innerHTML}).vtt`;
 };
