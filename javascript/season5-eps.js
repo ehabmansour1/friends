@@ -1,4 +1,4 @@
-span = document.getElementById("ep1");
+/*span = document.getElementById("ep1");
 span.onclick = function () {
   window.scrollTo({
     top: 0,
@@ -6,7 +6,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/enb8ujhziq/2vEBSlaP.c63ba68b16cd83afd63a0c4c3eb43886";
+      "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e01.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -27,7 +27,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/crkJw7G5ea/2vEBSlaP.c810568cf60fb66f303b02a7d94382c4";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e02.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -48,7 +48,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/i-k9lB32iq/2vEBSlaP.c2ab2b9c1c4b751b4a63dcc3a3494b63";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e03.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -69,7 +69,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/F1xUXTtGiq/2vEBSlaP.cff34bc55fbf4cfc41d9bdaf427dc6c6";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e04.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -90,7 +90,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/SysRo4Ihiq/2vEBSlaP.b373bdb9a38c7bf0cbe7ae112ed31522";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e05.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -111,7 +111,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/O3RDxE_Piq/2vEBSlaP.f4e80d9bcf239b5b2da1abddaabad3c3";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e06.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -132,7 +132,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/AbAIRPWEiq/2vEBSlaP.5649d0e4b09bcff14c2c9c779fd7f045";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e07.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -153,7 +153,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/TsKwcSTeiq/2vEBSlaP.c4a847869e6eb6c31078a3be0d6132cc";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e08.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -174,7 +174,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/JCHZj_u2ea/2vEBSlaP.0c00a93048ffc1cb9dc8b640b0e91a54";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e09.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -195,7 +195,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/AbkNc1Huiq/2vEBSlaP.2b1f1f07a702442df9aff9d1ddfcdee8";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e10.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -216,7 +216,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/iHxYnOuhiq/2vEBSlaP.859c1d47acbff1618b05ee7df048fd0c";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e11.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -237,7 +237,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/GlHJB-WQiq/2vEBSlaP.4fd3932306ac36a5da41cb7f72d9bfb3";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e12.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -258,7 +258,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/EO9mxr7zea/2vEBSlaP.88ba9591055ab39f559ed020fb650eb2";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e13.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -279,7 +279,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/OsLYgVK1iq/2vEBSlaP.1d42cccdf8f550d3e42a1a6ac23b2cd4";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e14.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -300,7 +300,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/6UrzdA-Kea/2vEBSlaP.068e1fe0b277d3e517c91f577363dbfc";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e15.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -321,7 +321,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/oge5Fw2Riq/2vEBSlaP.fd8fac731cb3fdfdf7cccfc563304350";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e16.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -342,7 +342,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/lu3yftE1iq/2vEBSlaP.1a87fa4babdc921c3607e2e317e7e8a5";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e17.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -363,7 +363,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/-_3TeJd1iq/2vEBSlaP.8ed6311605a3f6bfb489569575b10b68";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e18.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -384,7 +384,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/el9lla7giq/2vEBSlaP.de3fa63fba8d36d93b23f4c0426bb55c";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e19.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -405,7 +405,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/L6rgmPjxiq/2vEBSlaP.c35cd9177e56d93b4d310438713a9b1f";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e20.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -426,7 +426,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/uzE1ly1giq/2vEBSlaP.e0e399c99a5ae28ee2ce9d5ae4baf512";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e21.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -447,7 +447,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/aER7s_M4ea/2vEBSlaP.fba03f7ddbf5cc813574a31b03431935";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e22.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -468,7 +468,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/WhnwINT8iq/2vEBSlaP.d9e3d88a9b7fc1d06589fc73d9b15f61";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e23.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -489,7 +489,7 @@ span.onclick = function () {
   });
   {
     video.src =
-      "https://www.4shared.com/web/directDownload/jz0Gmraxiq/2vEBSlaP.ea03c9b48524a0210faa2c06bbbbd80b";
+    "https://archive.org/download/friends.s05e20.720p.bluray.x264-sujaidr/friends.s05e24.720p.bluray.x264-sujaidr.mkv";
     video.play();
   }
   {
@@ -506,8 +506,53 @@ span.onclick = function () {
 
 let shuffle = document.querySelector(".shuffle");
 shuffle.onclick = function () {
-  let rnd = Math.floor(Math.random() * 24 + 1);
+  let rnd = Math.floor(Math.random() * 23 + 1);
   console.log(rnd);
   span = document.getElementById(`ep${rnd}`);
   span.onclick();
+};*/
+let epis = document.querySelectorAll(".list > div");
+epis.forEach((epi, i) => {
+  epi.addEventListener("click", function () {
+    console.log(i + 1);
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+    {
+      video.src = `https://archive.org/download/s-05-20/s05%20%28${
+        i + 1
+      }%29.mkv`;
+      video.play();
+    }
+    {
+      episode.innerHTML = i + 1;
+    }
+    document.getElementById(
+      "en"
+    ).src = `assets/s05 en/s05 (${episode.innerHTML}).vtt`;
+    document.getElementById(
+      "ar"
+    ).src = `assets/s05 ar/s05 (${episode.innerHTML}).vtt`;
+  });
+});
+// ---------------------random---------------------
+
+let shuffle = document.querySelector(".shuffle");
+shuffle.onclick = function () {
+  let rnd = Math.floor(Math.random() * 23 + 1);
+  console.log(rnd);
+  {
+    video.src = `https://archive.org/download/s-05-20/s05%20%28${rnd}%29.mkv`;
+    video.play();
+  }
+  {
+    episode.innerHTML = rnd;
+  }
+  document.getElementById(
+    "en"
+  ).src = `assets/s05 en/s05 (${episode.innerHTML}).vtt`;
+  document.getElementById(
+    "ar"
+  ).src = `assets/s05 ar/s05 (${episode.innerHTML}).vtt`;
 };
