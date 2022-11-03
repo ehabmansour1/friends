@@ -539,7 +539,7 @@ shuffle.onclick = function () {
   let rnd = Math.floor(Math.random() * 24 + 1);
   console.log(rnd);
   {
-    video.src = `https://f004.backblazeb2.com/file/friendss/s01/Friends.CimaRed.BluRay.720P.S03E++(${rnd}).mp4`;
+    video.src = `https://f004.backblazeb2.com/file/friendss/s01/s01+(${rnd}).mkv`;
     video.play();
   }
   {
