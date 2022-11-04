@@ -12,10 +12,8 @@
       content=" موقع محبي مسلسل فريندز العرب , مشاهدة مسلسل فريندز الموسم الاول مترجم كامل بدون اعلانات"
     />
     <link rel="shortcut icon" type="image/jpg" href="images/profile.webp" />
-    <!-- <script src="javascript/player.js" crossorigin="anonymous"></script> -->
-    <!-- <link rel="stylesheet" href="css/player.css" /> -->
-    <!-- <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
-    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script> -->
+    <script src="javascript/player.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/player.css" />
   </head>
   <body>
     <img
@@ -61,11 +59,12 @@
     <div class="main" style="min-height: calc(100vh - 278px)">
       <div class="container">
         <div class="player">
-          <!-- <video id="player" playsinline controls>
+          <video id="player" playsinline controls>
             <source
               src="https://www.4shared.com/web/directDownload/JGdBzFE6ea/2vEBSlaP.ab44314525d10d1cf83f83ff64323a87
             "
             />
+            <!-- Captions are optional -->
             <track
               id="en"
               kind="captions"
@@ -79,23 +78,6 @@
               label="Arabic captions"
               src=""
               srclang="ar"
-              default
-            />
-          </video> -->
-          <video
-            id="player"
-            playsinline
-            controls
-            data-poster="/path/to/poster.jpg"
-          >
-            <source src="/path/to/video.mp4" type="video/mp4" />
-            <source src="/path/to/video.webm" type="video/webm" />
-
-            <track
-              kind="captions"
-              label="English captions"
-              src="/path/to/captions.vtt"
-              srclang="en"
               default
             />
           </video>
@@ -534,8 +516,5 @@
     </div>
     <script src="javascript/main.js"></script>
     <script src="javascript/season1-eps.js"></script>
-    <script>
-      const player = new Plyr("#player");
-    </script>
   </body>
 </html>
