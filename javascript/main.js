@@ -80,11 +80,11 @@ function downloadEp() {
 }
 function downloadAr() {
   window.location.href =
-    "https://www.4shared.com/web/directDownload/8NlFumzhiq/2vEBSlaP.2ae05abb11eba9f0cb554100b106462a";
+    "https://archive.org/download/20221104_20221104_1101/%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%B9%D8%B1%D8%A8%D9%8A%20-%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%81%D9%83%20%D8%A7%D9%84%D8%B6%D8%BA%D8%B7.rar";
 }
 function downloadEn() {
   window.location.href =
-    "https://www.4shared.com/web/directDownload/s0xYAd-4ea/2vEBSlaP.e45a9073903ed504c40c918bce123a8e";
+    "https://archive.org/download/20221104_1078/%D8%A7%D9%84%D8%AA%D8%B1%D8%AC%D9%85%D8%A9%20%D8%A7%D9%86%D8%AC%D9%84%D8%B4%20-%20%D8%A7%D8%B3%D8%AA%D8%AE%D8%AF%D9%85%20%D8%A8%D8%B1%D9%86%D8%A7%D9%85%D8%AC%20%D9%81%D9%83%20%D8%A7%D9%84%D8%B6%D8%BA%D8%B7.rar";
 }
 function downloadClose() {
   downloadList.style.display = "none";
