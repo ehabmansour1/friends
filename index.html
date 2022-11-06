@@ -2,11 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <script
-      src="https://kit.fontawesome.com/3162f5d9b2.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends Arab Lovers - موقع محبي مسلسل فريندز</title>
@@ -15,6 +12,8 @@
       content=" موقع محبي مسلسل فريندز العرب , مشاهدة مسلسل فريندز مترجم كامل بدون اعلانات"
     />
     <link rel="shortcut icon" type="image/jpg" href="images/profile.webp" />
+    <script src="javascript/player.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/player.css" />
   </head>
   <body>
     <img
@@ -29,14 +28,25 @@
         </svg>
       </div>
     </div>
+    <!-- <div id="contact" class="contact">
+      <i id="exit" class="fa-solid fa-xmark"></i>
+      <h5>
+        يسعدنا تلقي ارائك في الموقع والاخطاء المراد تعديلها في التحديث القادم
+      </h5>
+      <form action="">
+        <input id="telegram" type="text" />
+      </form>
+      <button id="butt">ارسال</button>
+    </div> -->
+    <span class="up"><i class="fas fa-arrow-up"></i></span>
     <div class="header">
       <div class="container">
         <div class="logo">
           <i
             style="color: transparent"
+            class="fas fa-bars"
             onclick="openseasons()"
             id="openseasons"
-            class="fas fa-bars"
           ></i>
           <a href="index.html"><img src="images/logo.webp" alt="" /></a>
         </div>
@@ -45,7 +55,7 @@
             ><i class="fa-brands fa-facebook"></i
           ></a>
           <a href="http://t.me/friendsarablovers"
-            ><i class="fa-brands fa-telegram"></i
+            ><i class="fab fa-telegram-plane"></i
           ></a>
           <img src="images/profile.webp" alt="" />
         </div>
@@ -118,12 +128,6 @@
             Friends: The Reunion
           </h5>
         </a>
-        <a href="download-seasons-one-link.html" class="season">
-          <i class="fa-solid fa-download"></i>
-          <h5 style="font-family: Gabriel; color: white; font-size: 17px">
-            Download Seasons One Link
-          </h5>
-        </a>
       </div>
     </div>
     <div class="footer">
@@ -143,5 +147,6 @@
       </div>
     </div>
     <script src="javascript/main.js"></script>
+    <script src="javascript/season1-eps.js"></script>
   </body>
 </html>
