@@ -507,46 +507,46 @@ shuffle.onclick = function () {
   span = document.getElementById(`ep${rnd}`);
   span.onclick();
 };*/
-let epis = document.querySelectorAll(".list > div");
-epis.forEach((epi, i) => {
-  epi.addEventListener("click", function () {
-    console.log(i + 1);
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
-    {
-      video.src = `https://s3.tebi.io/friends/s01/s01%20%28${i + 1}%29.mkv`;
-      video.play();
-    }
-    {
-      episode.innerHTML = i + 1;
-    }
-    document.getElementById(
-      "en"
-    ).src = `assets/s01 en/s01 (${episode.innerHTML}).vtt`;
-    document.getElementById(
-      "ar"
-    ).src = `assets/s01 ar/s01 (${episode.innerHTML}).vtt`;
-  });
-});
-// ---------------------random---------------------
+// let epis = document.querySelectorAll(".list > div");
+// epis.forEach((epi, i) => {
+//   epi.addEventListener("click", function () {
+//     console.log(i + 1);
+//     window.scrollTo({
+//       top: 0,
+//       behavior: "smooth",
+//     });
+//     {
+//       video.src = `https://s3.tebi.io/friends/s01/s01%20%28${i + 1}%29.mkv`;
+//       video.play();
+//     }
+//     {
+//       episode.innerHTML = i + 1;
+//     }
+//     document.getElementById(
+//       "en"
+//     ).src = `assets/s01 en/s01 (${episode.innerHTML}).vtt`;
+//     document.getElementById(
+//       "ar"
+//     ).src = `assets/s01 ar/s01 (${episode.innerHTML}).vtt`;
+//   });
+// });
+// // ---------------------random---------------------
 
-let shuffle = document.querySelector(".shuffle");
-shuffle.onclick = function () {
-  let rnd = Math.floor(Math.random() * 24 + 1);
-  console.log(rnd);
-  {
-    video.src = `https://s3.tebi.io/friends/s01/s01%20%28${rnd}%29.mkv`;
-    video.play();
-  }
-  {
-    episode.innerHTML = rnd;
-  }
-  document.getElementById(
-    "en"
-  ).src = `assets/s01 en/s01 (${episode.innerHTML}).vtt`;
-  document.getElementById(
-    "ar"
-  ).src = `assets/s01 ar/s01 (${episode.innerHTML}).vtt`;
-};
+// let shuffle = document.querySelector(".shuffle");
+// shuffle.onclick = function () {
+//   let rnd = Math.floor(Math.random() * 24 + 1);
+//   console.log(rnd);
+//   {
+//     video.src = `https://s3.tebi.io/friends/s01/s01%20%28${rnd}%29.mkv`;
+//     video.play();
+//   }
+//   {
+//     episode.innerHTML = rnd;
+//   }
+//   document.getElementById(
+//     "en"
+//   ).src = `assets/s01 en/s01 (${episode.innerHTML}).vtt`;
+//   document.getElementById(
+//     "ar"
+//   ).src = `assets/s01 ar/s01 (${episode.innerHTML}).vtt`;
+// };

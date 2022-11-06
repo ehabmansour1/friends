@@ -10,64 +10,43 @@ function remove() {
   var div = document.getElementById("seasons");
   div.className = "remove";
 }
-// --------------------loader-----------------------
-// let span = document.querySelector(".up");
-// window.onscroll = function () {
-//   this.scrollY >= 500
-//     ? span.classList.add("show")
-//     : span.classList.remove("show");
-// };
-// span.onclick = function () {
-//   window.scrollTo({
-//     top: 0,
-//     behavior: "smooth",
-//   });
-// };
+//loader=============================================
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function () {
   loader.style.display = "none";
 });
-// --------------------loader-----------------------
+//counter=============================================
 const countEl = document.getElementById("counter");
-updateVisitCount();
-function updateVisitCount() {
-  fetch(
-    "https://api.countapi.xyz/update/default/7eb1dfa4-0561-46e7-a66b-69a252e8a825/?amount=1"
-  )
-    .then((res) => res.json())
-    .then((res) => {
-      countEl.innerHTML = res.value;
-    });
+if (countEl) {
+  updateVisitCount();
+  function updateVisitCount() {
+    fetch(
+      "https://api.countapi.xyz/update/default/7eb1dfa4-0561-46e7-a66b-69a252e8a825/?amount=1"
+    )
+      .then((res) => res.json())
+      .then((res) => {
+        countEl.innerHTML = res.value;
+      });
+  }
 }
-// butt.addEventListener("click", method1);
-// butt.addEventListener("click", method2);
-// function method2() {
-//   fetch(
-//     `https://api.telegram.org/bot5147974264:AAE0_410j8-zFS53sP7FSB23RcsM9lru8Eo/sendMessage?chat_id=@mememeeeeme&text=${
-//       document.getElementById("telegram").value
-//     }`
-//   );
-// }
-// function method1() {
-//   contact.className = "remove";
-// }
-// exit.onclick = function () {
-//   contact.className = "remove";
-// };
 //download button =======================================================================
 let download = document.querySelector(".save");
-download.innerHTML = `<i class="fa-solid fa-download"></i>
+if (download) {
+  download.innerHTML = `<i class="fa-solid fa-download"></i>
 <span>Download</span>`;
+}
 let downloadList = document.createElement("div");
 downloadList.classList.add("download-list");
 downloadList.innerHTML = `<span onclick="downloadEp()" class="download-episopde">Download Episode</span>
 <span onclick="downloadAr()" class="download-ar">Ar Subtitle</span>
 <span onclick="downloadEn()" class="download-en">En Subtitle</span>
 <span onclick="downloadClose()" class="close"><i class="fa-solid fa-xmark"></i></span>`;
-download.onclick = function () {
-  document.querySelector(".player .links").appendChild(downloadList);
-  downloadList.style.display = "flex";
-};
+if (download) {
+  download.onclick = function () {
+    document.querySelector(".player .links").appendChild(downloadList);
+    downloadList.style.display = "flex";
+  };
+}
 let enCap = document.querySelector("[id='en']");
 let arCap = document.querySelector("[id='ar']");
 
@@ -97,4 +76,191 @@ images.forEach((img) => {
   let finalAltText = altText.match(reg);
 
   img.setAttribute("alt", ...finalAltText);
+});
+//episodes load=====================================
+let req = new XMLHttpRequest();
+let nameFromRequest;
+req.open("Get", "https://www.episodate.com/api/show-details?q=friends");
+req.send();
+req.addEventListener("load", function () {
+  console.log(JSON.parse(req.responseText).tvShow.episodes);
+  nameFromRequest = JSON.parse(req.responseText).tvShow.episodes;
+});
+let season = document.location.pathname.slice(8).split(".")[0];
+let episodes = document.querySelector(".list");
+let start;
+let end;
+let hashVideo;
+let hashThumb;
+let epLength;
+function epiName(s) {
+  switch (season) {
+    case "1":
+      start = 0;
+      end = 23;
+      hashVideo = "s-01-16/s01%";
+      hashThumb = "s-01-16/s-01-16.thumbs/s01%20%28";
+      break;
+    case "2":
+      start = 24;
+      end = 47;
+      hashVideo = "s-02-6/s02%";
+      hashThumb = "s-02-6/s-02-6.thumbs/s02%20%28";
+      break;
+    case "3":
+      start = 48;
+      end = 72;
+      hashVideo = "s-03-9/s03%";
+      hashThumb = "s-03-9/s-03-9.thumbs/s03%20%28";
+      break;
+    case "4":
+      start = 73;
+      end = 96;
+      hashVideo = "s-04-3/s04%";
+      hashThumb = "s-04-3/s-04-3.thumbs/s04%20%28";
+      break;
+    case "5":
+      start = 97;
+      end = 120;
+      hashVideo = "s-05-20/s05%";
+      hashThumb = "s-05-20/s-05-20.thumbs/s05%20%28";
+      break;
+    case "6":
+      start = 121;
+      end = 145;
+      hashVideo = "s-06-11/s06%";
+      hashThumb = "s-06-11/s-06-11.thumbs/s06%20%28";
+      break;
+    case "7":
+      start = 146;
+      end = 169;
+      hashVideo = "s-07-16/s07%";
+      hashThumb = "s-07-16/s-07-16.thumbs/s07%20%28";
+      break;
+    case "8":
+      start = 170;
+      end = 193;
+      hashVideo = "s-08-23/s08%";
+      hashThumb = "s-08-23/s-08-23.thumbs/s08%20%28";
+      break;
+    case "9":
+      start = 194;
+      end = 216;
+      hashVideo = "s-09-23/s09%";
+      hashThumb = "s-09-23/s-09-23.thumbs/s09%20%28";
+      break;
+    case "10":
+      start = 218;
+      end = 234;
+      hashVideo = "s-10-17/s10%";
+      hashThumb = "s-10-17/s-10-17.thumbs/s10%20%28";
+      break;
+  }
+  if (season !== "") {
+    episodes.innerHTML = "";
+  }
+  epLength = end - start + 1;
+  for (let i = 0; i < epLength; i++) {
+    episodes.innerHTML += `<div onclick="myFunction()" class="box" id="ep${
+      i + 1
+    }">
+    <div class="image-holder">
+      <img src="https://archive.org/download/${hashThumb}${
+      i + 1
+    }%29_000001.jpg">
+    </div>
+    <div class="label">
+      <p class="episode">Episode ${i + 1}</p>
+      <p>${nameFromRequest[start].name}</p>
+      <p class="season">Season ${season}</p>
+    </div>
+  </div>`;
+    start++;
+  }
+}
+//clisck events=====================================
+let title = document.querySelector(".title");
+req.addEventListener("load", function () {
+  epiName(season);
+  let epis = document.querySelectorAll(".list > div");
+  epis.forEach((epi, i) => {
+    epi.addEventListener("click", function () {
+      console.log(i + 1);
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+      if (season !== "") {
+        {
+          video.src = `https://archive.org/download/${hashVideo}20%28${
+            i + 1
+          }%29.mp4`;
+          video.play();
+        }
+      }
+      {
+        title.innerHTML = `<p class="title">
+        Friends Season ${season} Episode <span id="episode">${i + 1}</span>
+        </p>`;
+        title.innerHTML += `<span  style="font-size: 18px;
+        color: #ffc456;">${
+          document.querySelector(`#ep${i + 1} > div.label > p:nth-child(2)`)
+            .innerHTML
+        }</span>`;
+      }
+      episode = document.getElementById("episode");
+      if (season === "10") {
+        document.getElementById(
+          "en"
+        ).src = `assets/s${season} en/s${season} (${episode.innerHTML}).vtt`;
+        document.getElementById(
+          "ar"
+        ).src = `assets/s${season} ar/s${season} (${episode.innerHTML}).vtt`;
+      } else {
+        document.getElementById(
+          "en"
+        ).src = `assets/s0${season} en/s0${season} (${episode.innerHTML}).vtt`;
+        document.getElementById(
+          "ar"
+        ).src = `assets/s0${season} ar/s0${season} (${episode.innerHTML}).vtt`;
+      }
+    });
+  });
+  // ---------------------random---------------------
+
+  let shuffle = document.querySelector(".shuffle");
+  shuffle.onclick = function () {
+    let rnd = Math.floor(Math.random() * epLength + 1);
+    console.log(rnd);
+    {
+      video.src = `https://archive.org/download/${hashVideo}20%28${rnd}%29.mp4`;
+      video.play();
+    }
+    {
+      title.innerHTML = `<p class="title">
+      Friends Season ${season} Episode <span id="episode">${rnd}</span>
+      </p>`;
+      title.innerHTML += `<span  style="font-size: 18px;
+      color: wheat;">${
+        document.querySelector(`#ep${rnd} > div.label > p:nth-child(2)`)
+          .innerHTML
+      }</span>`;
+    }
+    episode = document.getElementById("episode");
+    if (season === "10") {
+      document.getElementById(
+        "en"
+      ).src = `assets/s${season} en/s${season} (${episode.innerHTML}).vtt`;
+      document.getElementById(
+        "ar"
+      ).src = `assets/s${season} ar/s${season} (${episode.innerHTML}).vtt`;
+    } else {
+      document.getElementById(
+        "en"
+      ).src = `assets/s0${season} en/s0${season} (${episode.innerHTML}).vtt`;
+      document.getElementById(
+        "ar"
+      ).src = `assets/s0${season} ar/s0${season} (${episode.innerHTML}).vtt`;
+    }
+  };
 });
