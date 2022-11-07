@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <script
+      src="https://kit.fontawesome.com/3162f5d9b2.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/all.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Friends Arab Lovers - friends the reunion</title>
@@ -15,7 +18,7 @@
     <script src="javascript/player.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/player.css" />
   </head>
-  <body>
+  <body id="reunion">
     <img
       style="position: absolute"
       src="https://iplogger.org/1kAMu7.gif"
@@ -51,10 +54,7 @@
       <div class="container">
         <div class="player">
           <video id="player" playsinline controls>
-            <source
-              src="https://archive.org/download/friends.the.-reunion.-2021.720p.-webrip.-800-mb.x-264-galaxy-rg/Friends.the.Reunion.2021.720p.WEBRip.800MB.x264-GalaxyRG.mkv
-            "
-            />
+            <source src="" />
             <!-- Captions are optional -->
             <track
               id="en"
@@ -79,7 +79,7 @@
           </div>
           <div class="links">
             <div class="like">
-              <i class="fal fa-thumbs-up"></i>
+              <i class="fa-solid fa-heart"></i>
               <span>1.1k</span>
             </div>
             <div class="dislike">
@@ -124,7 +124,7 @@
         <div class="list last-list">
           <div onclick="myFunction()" class="box" id="ep1">
             <div class="image-holder">
-              <img src="images/box.jpg" alt="" />
+              <img src="images/reunion.jpg" alt="" />
             </div>
             <div class="label">
               <p class="episode">Friends: The Reunion</p>
@@ -133,13 +133,6 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="search-message" id="searchid" onclick="removeserarch()">
-      <i class="fas fa-cogs"></i>
-      <h2 id="search-h2">
-        عذرا , لم يتم تفعيل البحث بعد , يمكنك استخدام قائمة المواسم بجوار شعار
-        الموقع
-      </h2>
     </div>
     <div class="seasons" id="seasons" onclick="remove()">
       <a href="season-1.html" class="season">
@@ -186,6 +179,12 @@
         <img src="images/Friends-256.webp" alt="" />
         <h5 style="font-family: Gabriel; color: white">Friends: The Reunion</h5>
       </a>
+      <a href="download-seasons-one-link.html" class="season">
+        <i class="fa-solid fa-download"></i>
+        <h5 style="font-family: Gabriel; color: white; font-size: 17px">
+          Download Seasons One Link
+        </h5>
+      </a>
     </div>
     <div class="footer">
       <div class="container">
@@ -205,27 +204,5 @@
     </div>
     <script src="javascript/main.js"></script>
     <script src="javascript/season11-eps.js"></script>
-    <script>
-      let span = document.querySelector(".up");
-
-      window.onscroll = function () {
-        // console.log(this.scrollY);
-        // if (this.scrollY >= 1000) {
-        //   span.classList.add("show");
-        // } else {
-        //   span.classList.remove("show");
-        // }
-        this.scrollY >= 500
-          ? span.classList.add("show")
-          : span.classList.remove("show");
-      };
-
-      span.onclick = function () {
-        window.scrollTo({
-          top: 0,
-          behavior: "smooth",
-        });
-      };
-    </script>
   </body>
 </html>

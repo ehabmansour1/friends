@@ -242,7 +242,7 @@ html {
 }
 .main .container .list .box .label p:nth-child(2) {
   font-size: 13px;
-  color: wheat;
+  color: #ffc456;
   margin-bottom: 4px;
   width: 150px;
 }
@@ -352,6 +352,11 @@ body {
   color: black;
   font-size: 25px;
 }
+.season i {
+  color: #ffc456;
+  font-size: 120px;
+  padding: 40px;
+}
 .season img {
   width: 200px;
   max-width: 100%;
@@ -367,7 +372,8 @@ body {
   left: 0px;
   backdrop-filter: blur(10px);
   width: 100%;
-  height: calc(100% - 250px);
+  /* height: calc(100% + 45px); */
+  min-height: 100%;
   text-align: center;
   opacity: 0;
   animation: 0.3s ease 0s 1 normal forwards running pop;
@@ -384,6 +390,9 @@ body {
   .open {
     display: block;
   }
+  .open-menu {
+    padding: 50px 0px;
+  }
 }
 .remove {
   display: none;
@@ -392,7 +401,7 @@ body {
 .main .container .player p.title {
   font-size: 20px;
   display: block;
-  margin-top: 15px;
+  margin-top: 8px;
   color: var(--main-color);
 }
 .main .container .player .counter {
@@ -422,6 +431,8 @@ body {
   cursor: pointer;
   text-transform: uppercase;
   user-select: none;
+  align-items: center;
+  gap: 5px;
 }
 .main .container .player .links > div span {
   font-size: 16px;
@@ -778,7 +789,7 @@ body {
   border-radius: 50%;
   position: absolute;
   display: block;
-  background: #66666696;
+  background: #dd940b;
   top: 37px;
   left: 19px;
   transform: translate(-18px, -18px);
@@ -883,3 +894,55 @@ body {
   bottom: -32px;
 }
 /* end headline */
+.season-links {
+  margin-top: 70px;
+}
+.season-links a,
+.subtitle {
+  display: block;
+  width: fit-content;
+  margin: 30px auto;
+  color: #ffc456;
+  text-decoration: none;
+  font-size: 20px;
+}
+.season-links a i,
+.subtitle i {
+  margin: 5px;
+}
+.divider {
+  position: relative;
+  height: 1px;
+}
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
+}
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: #ffa90a;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
+}
+.section {
+  z-index: 100;
+  position: relative;
+}
