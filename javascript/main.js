@@ -98,61 +98,61 @@ function epiName(s) {
     case "1":
       start = 0;
       end = 23;
-      hashVideo = "s-01-16/s01%";
+      hashVideo = "";
       hashThumb = "s-01-16/s-01-16.thumbs/s01%20%28";
       break;
     case "2":
       start = 24;
       end = 47;
-      hashVideo = "s-02-6/s02%";
+      hashVideo = "";
       hashThumb = "s-02-6/s-02-6.thumbs/s02%20%28";
       break;
     case "3":
       start = 48;
       end = 72;
-      hashVideo = "s-03-9/s03%";
+      hashVideo = "2";
       hashThumb = "s-03-9/s-03-9.thumbs/s03%20%28";
       break;
     case "4":
       start = 73;
       end = 96;
-      hashVideo = "s-04-3/s04%";
+      hashVideo = "2";
       hashThumb = "s-04-3/s-04-3.thumbs/s04%20%28";
       break;
     case "5":
       start = 97;
       end = 120;
-      hashVideo = "s-05-20/s05%";
+      hashVideo = "3";
       hashThumb = "s-05-20/s-05-20.thumbs/s05%20%28";
       break;
     case "6":
       start = 121;
       end = 145;
-      hashVideo = "s-06-11/s06%";
+      hashVideo = "3";
       hashThumb = "s-06-11/s-06-11.thumbs/s06%20%28";
       break;
     case "7":
       start = 146;
       end = 169;
-      hashVideo = "s-07-16/s07%";
+      hashVideo = "4";
       hashThumb = "s-07-16/s-07-16.thumbs/s07%20%28";
       break;
     case "8":
       start = 170;
       end = 193;
-      hashVideo = "s-08-23/s08%";
+      hashVideo = "4";
       hashThumb = "s-08-23/s-08-23.thumbs/s08%20%28";
       break;
     case "9":
       start = 194;
       end = 216;
-      hashVideo = "s-09-23/s09%";
+      hashVideo = "5";
       hashThumb = "s-09-23/s-09-23.thumbs/s09%20%28";
       break;
     case "10":
       start = 218;
       end = 234;
-      hashVideo = "s-10-17/s10%";
+      hashVideo = "5";
       hashThumb = "s-10-17/s-10-17.thumbs/s10%20%28";
       break;
   }
@@ -192,7 +192,7 @@ req.addEventListener("load", function () {
       });
       if (season !== "reunion") {
         {
-          video.src = `https://archive.org/download/${hashVideo}20%28${
+          video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${
             i + 1
           }%29.mp4`;
           video.play();
@@ -233,7 +233,7 @@ req.addEventListener("load", function () {
     let rnd = Math.floor(Math.random() * epLength + 1);
     console.log(rnd);
     {
-      video.src = `https://archive.org/download/${hashVideo}20%28${rnd}%29.mp4`;
+      video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
       video.play();
     }
     {
@@ -264,3 +264,15 @@ req.addEventListener("load", function () {
     }
   };
 });
+
+var Tawk_API = Tawk_API || {},
+  Tawk_LoadStart = new Date();
+(function () {
+  var s1 = document.createElement("script"),
+    s0 = document.getElementsByTagName("script")[0];
+  s1.async = true;
+  s1.src = "https://embed.tawk.to/6369d269daff0e1306d6427f/1ghalrrh4";
+  s1.charset = "UTF-8";
+  s1.setAttribute("crossorigin", "*");
+  s0.parentNode.insertBefore(s1, s0);
+})();
