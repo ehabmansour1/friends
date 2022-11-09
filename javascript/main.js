@@ -49,13 +49,41 @@ if (download) {
 }
 let enCap = document.querySelector("[id='en']");
 let arCap = document.querySelector("[id='ar']");
-
+let hashDownload;
 function downloadEp() {
-  if (video.src === "") {
-    alert("اختار الحلقة الاول");
-  } else {
-    window.location.href = video.src;
+  switch (season) {
+    case "1":
+      hashDownload = "s-01-16/s01%";
+      break;
+    case "2":
+      hashDownload = "s-02-6/s02%";
+      break;
+    case "3":
+      hashDownload = "s-03-9/s03%";
+      break;
+    case "4":
+      hashDownload = "s-04-3/s04%";
+      break;
+    case "5":
+      hashDownload = "s-05-20/s05%";
+      break;
+    case "6":
+      hashDownload = "s-06-11/s06%";
+      break;
+    case "7":
+      hashDownload = "s-07-16/s07%";
+      break;
+    case "8":
+      hashDownload = "s-08-23/s08%";
+      break;
+    case "9":
+      hashDownload = "s-09-23/s09%";
+      break;
+    case "10":
+      hashDownload = "s-10-17/s10%";
+      break;
   }
+  window.location.href = `https://archive.org/download/${hashDownload}20%28${episode.innerHTML}%29.mp4`;
 }
 function downloadAr() {
   window.location.href =
@@ -264,7 +292,7 @@ req.addEventListener("load", function () {
     }
   };
 });
-
+// chat===================================================
 var Tawk_API = Tawk_API || {},
   Tawk_LoadStart = new Date();
 (function () {
