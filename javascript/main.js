@@ -83,7 +83,7 @@ function downloadEp() {
       hashDownload = "s-10-17/s10%";
       break;
   }
-  window.location.href = `https://archive.org/download/${hashDownload}20%28${episode.innerHTML}%29.mp4`;
+  window.location.href = `https://archive.org/download/${hashDownload}20%28${episode.innerHTML}%29.mkv`;
 }
 function downloadAr() {
   window.location.href =
