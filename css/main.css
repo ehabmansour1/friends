@@ -1,6 +1,7 @@
 /* start variables */
 :root {
   --main-color: white;
+  --plyr-color-main: #ffa90a;
 }
 /* end variables */
 @font-face {
@@ -946,3 +947,84 @@ body {
   z-index: 100;
   position: relative;
 }
+/* start support */
+.support-button {
+  position: fixed;
+  z-index: 20;
+  bottom: 20px;
+  right: 20px;
+}
+.support-button img {
+  width: 50px;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: var(--plyr-color-main);
+  cursor: pointer;
+}
+.support-window {
+  position: fixed;
+  z-index: 20;
+  bottom: 70px;
+  right: 70px;
+  background-color: rgba(255, 255, 255, 0.63);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  backdrop-filter: blur(10px);
+  border: 2px solid var(--plyr-color-main);
+}
+.support-window input,
+.support-window textarea {
+  padding: 2px;
+}
+input:focus,
+textarea:focus {
+  outline: none;
+}
+.support-window textarea {
+  height: 70px;
+}
+.support-window button {
+  padding: 8px 15px;
+  width: fit-content;
+  margin: auto;
+  color: #181c28;
+  background-color: transparent;
+  border: 1px solid #181c28;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+  background-color: var(--plyr-color-main);
+}
+.support-window .message {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dd940b;
+  inset: 0 0 0 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.hide {
+  display: none !important;
+}
+/* end support */
