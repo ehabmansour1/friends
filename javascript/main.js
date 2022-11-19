@@ -126,7 +126,7 @@ function downloadEp() {
       hashDownload = "s-10-17/s10%";
       break;
   }
-  window.location.href = `https://archive.org/download/${hashDownload}20%28${episode.innerHTML}%29.mkv`;
+  // window.location.href = `https://archive.org/download/${hashDownload}20%28${episode.innerHTML}%29.mkv`;
 }
 function downloadAr() {
   window.location.href =
@@ -263,9 +263,9 @@ req.addEventListener("load", function () {
       });
       if (season !== "reunion") {
         {
-          video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${
-            i + 1
-          }%29.mp4`;
+          // video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${
+          //   i + 1
+          // }%29.mp4`;
           video.play();
         }
       }
@@ -304,7 +304,7 @@ req.addEventListener("load", function () {
     let rnd = Math.floor(Math.random() * epLength + 1);
     console.log(rnd);
     {
-      video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
+      // video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
       video.play();
     }
     {
@@ -361,4 +361,3 @@ var controls = [
   "fullscreen", // Toggle fullscreen
 ];
 const player = new Plyr("#player", { controls });
-
