@@ -41,22 +41,6 @@ supportSendButton.addEventListener("click", function () {
     }, 2000);
   }
 });
-//tracker ================================================
-!(function (e, i, n, s, t, c) {
-  e[s] ||
-    ((visualime_site_id = "51919095"),
-    (e[s] = {}),
-    (e[s].callsQueue = []),
-    (e[s].api = function () {
-      e[s].callsQueue.push(arguments);
-    }),
-    (t = i.createElement(n)),
-    (c = i.getElementsByTagName(n)[0]),
-    (t.async = 1),
-    (t.src = "https://visualime.com/v/visualime-a8b745.min.js"),
-    (t.id = s + n),
-    c.parentNode.insertBefore(t, c));
-})(window, document, "script", "VISUALIME");
 //player===============================================
 let video = document.getElementById("player");
 let episode = document.getElementById("episode");
