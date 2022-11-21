@@ -6,6 +6,7 @@
       src="https://kit.fontawesome.com/3162f5d9b2.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,6 +18,8 @@
       content=" موقع محبي مسلسل فريندز العرب , تحميل مواسم فريندز كاملة برابط واحد مباشر , Friends Arab Lovers - تحميل مواسم فريندز كاملة برابط واحد مباشر"
     />
     <link rel="shortcut icon" type="image/jpg" href="images/profile.webp" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
   </head>
   <body>
     <img
@@ -37,7 +40,22 @@
           <i class="fas fa-bars" onclick="openseasons()" id="openseasons"></i>
           <a href="index.html"><img src="images/logo.webp" alt="" /></a>
         </div>
+        <div class="search-window hide">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Name of Episode"
+          />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <i class="fa-solid fa-xmark exit-search-button"></i>
+          <div class="result">
+            <h1>No Data To Show</h1>
+          </div>
+        </div>
         <div class="notification">
+          <i class="fa-solid fa-magnifying-glass search-icon-header"></i>
           <a href="https://www.facebook.com/friendsarabslovers"
             ><i class="fa-brands fa-facebook"></i
           ></a>

@@ -15,6 +15,8 @@
       content=" موقع محبي مسلسل فريندز العرب , مشاهدة مسلسل فريندز مترجم كامل بدون اعلانات - Friends Arab Lovers"
     />
     <link rel="shortcut icon" type="image/jpg" href="images/profile.webp" />
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.7.2/plyr.css" />
+    <script src="https://cdn.plyr.io/3.7.2/plyr.polyfilled.js"></script>
   </head>
   <body>
     <img
@@ -38,9 +40,26 @@
             id="openseasons"
             class="fas fa-bars"
           ></i>
-          <a href="index.html"><img src="images/logo.webp" alt="" /></a>
+          <a href="index.html"
+            ><img style="margin-left: -32px" src="images/logo.webp" alt=""
+          /></a>
+        </div>
+        <div class="search-window hide">
+          <input
+            class="search-input"
+            type="text"
+            placeholder="Name of Episode"
+          />
+          <button class="search-button">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <i class="fa-solid fa-xmark exit-search-button"></i>
+          <div class="result">
+            <h1>No Data To Show</h1>
+          </div>
         </div>
         <div class="notification">
+          <i class="fa-solid fa-magnifying-glass search-icon-header"></i>
           <a href="https://www.facebook.com/friendsarabslovers"
             ><i class="fa-brands fa-facebook"></i
           ></a>

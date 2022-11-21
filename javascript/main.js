@@ -152,10 +152,11 @@ images.forEach((img) => {
 //episodes load=====================================
 let req = new XMLHttpRequest();
 let nameFromRequest;
+let theResposeObj;
 req.open("Get", "assets/data.json");
 req.send();
 req.addEventListener("load", function () {
-  console.log(JSON.parse(req.responseText).tvShow.episodes);
+  theResposeObj = JSON.parse(req.responseText).tvShow.episodes;
   nameFromRequest = JSON.parse(req.responseText).tvShow.episodes;
 });
 let season = document.body.id;
@@ -229,7 +230,9 @@ function epiName(s) {
       break;
   }
   if (season !== "reunion") {
-    episodes.innerHTML = "";
+    if (episodes) {
+      episodes.innerHTML = "";
+    }
   }
   epLength = end - start + 1;
   for (let i = 0; i < epLength; i++) {
@@ -301,53 +304,277 @@ req.addEventListener("load", function () {
   // ---------------------random---------------------
 
   let shuffle = document.querySelector(".shuffle");
-  shuffle.onclick = function () {
-    let rnd = Math.floor(Math.random() * epLength + 1);
-    console.log(rnd);
-    {
-      video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
-      video.play();
-    }
-    {
-      title.innerHTML = `<p class="title">
-      Friends Season ${season} Episode <span id="episode">${rnd}</span>
-      </p>`;
-      title.innerHTML += `<span  style="font-size: 18px;
-      color: wheat;">${
-        document.querySelector(`#ep${rnd} > div.label > p:nth-child(2)`)
-          .innerHTML
-      }</span>`;
-    }
-    episode = document.getElementById("episode");
-    if (season === "10") {
-      document.getElementById(
-        "en"
-      ).src = `assets/s${season} en/s${season} (${episode.innerHTML}).vtt`;
-      document.getElementById(
-        "ar"
-      ).src = `assets/s${season} ar/s${season} (${episode.innerHTML}).vtt`;
-    } else {
-      document.getElementById(
-        "en"
-      ).src = `assets/s0${season} en/s0${season} (${episode.innerHTML}).vtt`;
-      document.getElementById(
-        "ar"
-      ).src = `assets/s0${season} ar/s0${season} (${episode.innerHTML}).vtt`;
-    }
-  };
+  if (shuffle) {
+    shuffle.onclick = function () {
+      let rnd = Math.floor(Math.random() * epLength + 1);
+      console.log(rnd);
+      {
+        video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
+        video.play();
+      }
+      {
+        title.innerHTML = `<p class="title">
+        Friends Season ${season} Episode <span id="episode">${rnd}</span>
+        </p>`;
+        title.innerHTML += `<span  style="font-size: 18px;
+        color: wheat;">${
+          document.querySelector(`#ep${rnd} > div.label > p:nth-child(2)`)
+            .innerHTML
+        }</span>`;
+      }
+      episode = document.getElementById("episode");
+      if (season === "10") {
+        document.getElementById(
+          "en"
+        ).src = `assets/s${season} en/s${season} (${episode.innerHTML}).vtt`;
+        document.getElementById(
+          "ar"
+        ).src = `assets/s${season} ar/s${season} (${episode.innerHTML}).vtt`;
+      } else {
+        document.getElementById(
+          "en"
+        ).src = `assets/s0${season} en/s0${season} (${episode.innerHTML}).vtt`;
+        document.getElementById(
+          "ar"
+        ).src = `assets/s0${season} ar/s0${season} (${episode.innerHTML}).vtt`;
+      }
+    };
+  }
 });
-// chat===================================================
-var Tawk_API = Tawk_API || {},
-  Tawk_LoadStart = new Date();
-(function () {
-  var s1 = document.createElement("script"),
-    s0 = document.getElementsByTagName("script")[0];
-  s1.async = true;
-  s1.src = "https://embed.tawk.to/6369d269daff0e1306d6427f/1ghalrrh4";
-  s1.charset = "UTF-8";
-  s1.setAttribute("crossorigin", "*");
-  s0.parentNode.insertBefore(s1, s0);
-})();
+// // chat===================================================
+// var Tawk_API = Tawk_API || {},
+//   Tawk_LoadStart = new Date();
+// (function () {
+//   var s1 = document.createElement("script"),
+//     s0 = document.getElementsByTagName("script")[0];
+//   s1.async = true;
+//   s1.src = "https://embed.tawk.to/6369d269daff0e1306d6427f/1ghalrrh4";
+//   s1.charset = "UTF-8";
+//   s1.setAttribute("crossorigin", "*");
+//   s0.parentNode.insertBefore(s1, s0);
+// })();
+//search================================================
+let searchIconHeader = document.querySelector(".search-icon-header");
+let exitSearchButton = document.querySelector(".exit-search-button");
+let searchWindow = document.querySelector(".search-window");
+let searchButton = document.querySelector(".search-button");
+let searchInput = document.querySelector(".search-input");
+let resultDiv = document.querySelector(".result");
+let hashDownloadForSearch;
+let episodesArr = [];
+let resultArr = [];
+searchIconHeader.addEventListener("click", function () {
+  searchWindow.classList.toggle("hide");
+});
+exitSearchButton.addEventListener("click", function () {
+  searchWindow.classList.add("hide");
+});
+req.addEventListener("load", function () {
+  for (let i = 0; i < 236; i++) {
+    episodesArr.push(JSON.parse(req.responseText).tvShow.episodes[i].name);
+  }
+});
+searchButton.addEventListener("click", function () {
+  resultDiv.innerHTML = "";
+  resultArr = searchInArray(searchInput.value, episodesArr);
+  if (resultArr.length == 0) {
+    resultDiv.innerHTML = `<h1>Nothing Found</h1>`;
+  }
+  for (let i = 0; i < resultArr.length; i++) {
+    resultIndex = episodesArr.indexOf(resultArr[i]);
+    resultDiv.innerHTML += `<div onclick="playFromSearch(this)" name='${theResposeObj[resultIndex].name}' ep='${theResposeObj[resultIndex].episode}' season='${theResposeObj[resultIndex].season}' class="box search-box" id="ep${theResposeObj[resultIndex].episode}">
+    <div class="image-holder">
+      <img src="images/thumbs/s (${theResposeObj[resultIndex].season})/s${theResposeObj[resultIndex].season} (${theResposeObj[resultIndex].episode}).webp" alt="s${theResposeObj[resultIndex].season} e${theResposeObj[resultIndex].episode}">
+    </div>
+    <div class="label">
+      <p class="episode">Episode ${theResposeObj[resultIndex].episode}</p>
+      <p>${theResposeObj[resultIndex].name}</p>
+      <p class="season">Season ${theResposeObj[resultIndex].season}</p>
+    </div>
+  </div>`;
+  }
+});
+let headline = document.querySelector(".headline");
+function playFromSearch(e) {
+  let hashDownload;
+  switch (e.getAttribute("season")) {
+    case "1":
+      hashDownload = "s-01-16/s01%";
+      break;
+    case "2":
+      hashDownload = "s-02-6/s02%";
+      break;
+    case "3":
+      hashDownload = "s-03-9/s03%";
+      break;
+    case "4":
+      hashDownload = "s-04-3/s04%";
+      break;
+    case "5":
+      hashDownload = "s-05-20/s05%";
+      break;
+    case "6":
+      hashDownload = "s-06-11/s06%";
+      break;
+    case "7":
+      hashDownload = "s-07-16/s07%";
+      break;
+    case "8":
+      hashDownload = "s-08-23/s08%";
+      break;
+    case "9":
+      hashDownload = "s-09-23/s09%";
+      break;
+    case "10":
+      hashDownload = "s-10-17/s10%";
+      break;
+  }
+  searchWindow.classList.add("hide");
+  if (headline) {
+    headline.style.display = "none";
+  }
+  document.querySelector(
+    ".main"
+  ).innerHTML = `<div class="container" style='display: block;
+  margin: 20px auto;'>
+  <div class="player" style='height: 110vh;'>
+    <video id="player" playsinline="" controls="">
+      <source src="">
+      <!-- Captions are optional -->
+      <track id="en" kind="captions" label="English captions" src="" srclang="en">
+      <track id="ar" kind="captions" label="Arabic captions" src="" srclang="ar" default="">
+    </video>
+    <p class="title">
+      Friends Season ${e.getAttribute(
+        "season"
+      )} Episode <span id="episode">${e.getAttribute("ep")}</span>
+      <span style="font-size: 18px;display: block;
+        color: #ffc456;">${e.getAttribute("name")}</span>
+    </p>
+    <div class="counter">
+      <p id="counter">66315</p>
+      <p>Views . Oct 25, 2021</p>
+    </div>
+    <div class="links">
+      <div class="like">
+        <i class="fa-solid fa-heart"></i>
+        <span>1.1k</span>
+      </div>
+      <div class="dislike">
+        <i class="fal fa-thumbs-down" aria-hidden="true"></i>
+        <span>1</span>
+      </div>
+      <div class="save"><i class="fa-solid fa-download"></i>
+      <span>Download</span></div>
+      <i class="fal fa-ellipsis-h" aria-hidden="true"></i>
+      <div class="download-list" style="display: flex;"><a href='https://archive.org/download/${hashDownload}20%28${e.getAttribute(
+    "ep"
+  )}%29.mkv' class="download-episopde">Download Episode</a>
+      <span onclick="downloadAr()" class="download-ar">Ar Subtitle</span>
+      <span onclick="downloadEn()" class="download-en">En Subtitle</span>
+      <span onclick="downloadClose()" class="close"><i class="fa-solid fa-xmark"></i></span></div>
+    </div>
+    
+    <div class="channel">
+      <div class="col-1">
+        <img src="images/profile.jpg" alt="images/profile.jpg">
+        <div class="text">
+          <h1>Friends Arab Lovers</h1>
+          <p>100K subscribers</p>
+        </div>
+      </div>
+      <div class="col-2">
+        <button>Subscribe</button>
+        <i class="far fa-bell" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="description">
+      <p>All Credits To Friends Arab Lovers Page</p>
+      <div class="social">
+        <a href="https://www.facebook.com/friendsarabslovers"><i class="fab fa-facebook-f" aria-hidden="true"></i></a>
+        <a href="http://t.me/friendsarablovers"><i class="fab fa-telegram-plane" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>`;
+  switch (e.getAttribute("season")) {
+    case "1":
+      hashVideo = "";
+      break;
+    case "2":
+      hashVideo = "";
+      break;
+    case "3":
+      hashVideo = "2";
+      break;
+    case "4":
+      hashVideo = "2";
+      break;
+    case "5":
+      hashVideo = "3";
+      break;
+    case "6":
+      hashVideo = "3";
+      break;
+    case "7":
+      hashVideo = "4";
+      break;
+    case "8":
+      hashVideo = "4";
+      break;
+    case "9":
+      hashVideo = "5";
+      break;
+    case "10":
+      hashVideo = "5";
+      break;
+  }
+  video = document.querySelector("#player");
+  video.src = `https://s3.tebi.io/friends${hashVideo}/s${e.getAttribute(
+    "season"
+  )}/s${e.getAttribute("season")}%20%28${e.getAttribute("ep")}%29.mp4`;
+  video.play();
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+  if (e.getAttribute("season") === "10") {
+    document.getElementById("en").src = `assets/s${e.getAttribute(
+      "season"
+    )} en/s${e.getAttribute("season")} (${e.getAttribute("ep")}).vtt`;
+    document.getElementById("ar").src = `assets/s${e.getAttribute(
+      "season"
+    )} ar/s${e.getAttribute("season")} (${e.getAttribute("ep")}).vtt`;
+  } else {
+    document.getElementById("en").src = `assets/s0${e.getAttribute(
+      "season"
+    )} en/s0${e.getAttribute("season")} (${e.getAttribute("ep")}).vtt`;
+    document.getElementById("ar").src = `assets/s0${e.getAttribute(
+      "season"
+    )} ar/s0${e.getAttribute("season")} (${e.getAttribute("ep")}).vtt`;
+  }
+  player = new Plyr("#player", { controls });
+}
+
+let searchInArray = (searchQuery, array, objectKey = null) => {
+  return array.filter((d) => {
+    let data = objectKey ? d[objectKey] : d; //Incase If It's Array Of Objects.
+    let dataWords =
+      typeof data == "string" &&
+      data
+        ?.split(" ")
+        ?.map((b) => b && b.toLowerCase().trim())
+        .filter((b) => b);
+    let searchWords =
+      typeof searchQuery == "string" &&
+      searchQuery
+        ?.split(" ")
+        .map((b) => b && b.toLowerCase().trim())
+        .filter((b) => b);
+    let matchingWords = searchWords.filter((word) => dataWords.includes(word));
+    return matchingWords.length;
+  });
+};
 //player initialization =====================================
 var controls = [
   "play-large", // Play/pause playback
