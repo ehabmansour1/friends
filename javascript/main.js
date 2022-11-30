@@ -556,24 +556,36 @@ function playFromSearch(e) {
   player = new Plyr("#player", { controls });
 }
 
-let searchInArray = (searchQuery, array, objectKey = null) => {
-  return array.filter((d) => {
-    let data = objectKey ? d[objectKey] : d; //Incase If It's Array Of Objects.
-    let dataWords =
-      typeof data == "string" &&
-      data
-        ?.split(" ")
-        ?.map((b) => b && b.toLowerCase().trim())
-        .filter((b) => b);
-    let searchWords =
-      typeof searchQuery == "string" &&
-      searchQuery
-        ?.split(" ")
-        .map((b) => b && b.toLowerCase().trim())
-        .filter((b) => b);
-    let matchingWords = searchWords.filter((word) => dataWords.includes(word));
-    return matchingWords.length;
-  });
+// let searchInArray = (searchQuery, array, objectKey = null) => {
+//   return array.filter((d) => {
+//     let data = objectKey ? d[objectKey] : d; //Incase If It's Array Of Objects.
+//     let dataWords =
+//       typeof data == "string" &&
+//       data
+//         ?.split(" ")
+//         ?.map((b) => b && b.toLowerCase().trim())
+//         .filter((b) => b);
+//     let searchWords =
+//       typeof searchQuery == "string" &&
+//       searchQuery
+//         ?.split(" ")
+//         .map((b) => b && b.toLowerCase().trim())
+//         .filter((b) => b);
+//     let matchingWords = searchWords.filter((word) => dataWords.includes(word));
+//     return matchingWords.length;
+//   });
+// };
+let searchInArray = (query, array) => {
+  let result = [];
+  for (let i = 0; i < array.length; i++) {
+    if (
+      array[i].indexOf(query) !== -1 ||
+      array[i].indexOf(query.charAt(0).toUpperCase() + query.slice(1)) !== -1
+    ) {
+      result.push(array[i]);
+    }
+  }
+  return result;
 };
 //player initialization =====================================
 var controls = [
