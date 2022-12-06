@@ -378,7 +378,7 @@ searchButton.addEventListener("click", function () {
   resultDiv.innerHTML = "";
   resultArr = searchInArray(searchInput.value, episodesArr);
   if (resultArr.length == 0) {
-    resultDiv.innerHTML = `<h1>Nothing Found</h1>`;
+    resultDiv.innerHTML = `<h2>Nothing Found</h2>`;
   }
   for (let i = 0; i < resultArr.length; i++) {
     resultIndex = episodesArr.indexOf(resultArr[i]);
