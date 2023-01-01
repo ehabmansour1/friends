@@ -55,9 +55,20 @@ function remove() {
   div.className = "remove";
 }
 //loader=============================================
+var my_awesome_script = document.createElement("script");
+my_awesome_script.setAttribute("src", "//cdn.jsdelivr.net/npm/sweetalert2@11");
+document.head.appendChild(my_awesome_script);
+
 var loader = document.getElementById("preloader");
 window.addEventListener("load", function () {
   loader.style.display = "none";
+  if (
+    localStorage.getItem("redFlag") === null ||
+    localStorage.getItem("redFlag") === false
+  ) {
+    Swal.fire("", "Please skip the inappropriate scenes", "success");
+    localStorage.setItem("redFlag", true);
+  }
 });
 //counter=============================================
 const countEl = document.getElementById("counter");
