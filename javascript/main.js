@@ -159,6 +159,7 @@ images.forEach((img) => {
   let finalAltText = altText.match(reg);
 
   img.setAttribute("alt", ...finalAltText);
+  img.setAttribute("loading", "lazy");
 });
 //episodes load=====================================
 let req = new XMLHttpRequest();
