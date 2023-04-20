@@ -1,4 +1,6 @@
-document.querySelector('[alt="https://iplogger.org/1kAMu7.gif"]').style.display='none'
+document.querySelector(
+  '[alt="https://iplogger.org/1kAMu7.gif"]'
+).style.display = "none";
 //support ====================================================
 document.body.insertAdjacentHTML(
   "beforeend",
