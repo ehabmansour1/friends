@@ -1,6 +1,6 @@
 document.addEventListener("load", () => {
   document.querySelector(
-    '[alt="https://iplogger.org/1kAMu7.gif"]'
+    '[src="https://iplogger.org/1kAMu7.gif"]'
   ).style.display = "none";
 });
 //support ====================================================
