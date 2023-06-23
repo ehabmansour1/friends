@@ -6,46 +6,41 @@ document.addEventListener("load", () => {
 //support ====================================================
 document.body.insertAdjacentHTML(
   "beforeend",
-  `<div class="support-button">
+  `<a href="https://wa.me/+201119216865" target="_blank" class="support-button">
 <img src="images/support.png" alt="support" />
-</div>
-<div class="support-window hide">
-<div class="message hide">Sent!</div>
-<textarea class="problem" placeholder="Problem"></textarea>
-<input type="text" class="number" placeholder="Whatsapp Number" />
-<button class="send-to-telegram">SEND</button>
-</div>`
+</a>
+`
 );
-let supportButton = document.querySelector(".support-button");
-let supportWindow = document.querySelector(".support-window");
-let supportSendButton = document.querySelector(".send-to-telegram");
-let problem = document.querySelector(".problem");
-let number = document.querySelector(".number");
-let message = document.querySelector(".message");
-supportButton.addEventListener("click", function () {
-  supportWindow.classList.toggle("hide");
-});
-supportSendButton.addEventListener("click", function () {
-  if (problem.value !== "" && number.value !== "") {
-    let req = new XMLHttpRequest();
-    req.open(
-      "get",
-      `https://api.telegram.org/bot5147974264:AAE0_410j8-zFS53sP7FSB23RcsM9lru8Eo/sendMessage?chat_id=@ddjhddhdjjdjr&text=${problem.value}-${number.value}`
-    );
-    req.send();
-    message.innerHTML = "SENT!";
-    message.classList.remove("hide");
-    setTimeout(() => {
-      message.classList.add("hide");
-    }, 2000);
-  } else {
-    message.innerHTML = "Please Complete The fields!";
-    message.classList.remove("hide");
-    setTimeout(() => {
-      message.classList.add("hide");
-    }, 2000);
-  }
-});
+// let supportButton = document.querySelector(".support-button");
+// let supportWindow = document.querySelector(".support-window");
+// let supportSendButton = document.querySelector(".send-to-telegram");
+// let problem = document.querySelector(".problem");
+// let number = document.querySelector(".number");
+// let message = document.querySelector(".message");
+// supportButton.addEventListener("click", function () {
+//   supportWindow.classList.toggle("hide");
+// });
+// supportSendButton.addEventListener("click", function () {
+//   if (problem.value !== "" && number.value !== "") {
+//     let req = new XMLHttpRequest();
+//     req.open(
+//       "get",
+//       `https://api.telegram.org/bot5147974264:AAE0_410j8-zFS53sP7FSB23RcsM9lru8Eo/sendMessage?chat_id=@ddjhddhdjjdjr&text=${problem.value}-${number.value}`
+//     );
+//     req.send();
+//     message.innerHTML = "SENT!";
+//     message.classList.remove("hide");
+//     setTimeout(() => {
+//       message.classList.add("hide");
+//     }, 2000);
+//   } else {
+//     message.innerHTML = "Please Complete The fields!";
+//     message.classList.remove("hide");
+//     setTimeout(() => {
+//       message.classList.add("hide");
+//     }, 2000);
+//   }
+// });
 //player===============================================
 let video = document.getElementById("player");
 let episode = document.getElementById("episode");
