@@ -284,7 +284,39 @@ req.addEventListener("load", function () {
       });
       if (season !== "reunion") {
         {
-          video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${
+          switch (season) {
+            case "1":
+              hashDownload = "s-01-16/s01%";
+              break;
+            case "2":
+              hashDownload = "s-02-6/s02%";
+              break;
+            case "3":
+              hashDownload = "s-03-9/s03%";
+              break;
+            case "4":
+              hashDownload = "s-04-3/s04%";
+              break;
+            case "5":
+              hashDownload = "s-05-20/s05%";
+              break;
+            case "6":
+              hashDownload = "s-06-11/s06%";
+              break;
+            case "7":
+              hashDownload = "s-07-16/s07%";
+              break;
+            case "8":
+              hashDownload = "s-08-23/s08%";
+              break;
+            case "9":
+              hashDownload = "s-09-23/s09%";
+              break;
+            case "10":
+              hashDownload = "s-10-17/s10%";
+              break;
+          }
+          video.src = `https://archive.org/download/${hashDownload}20%28${
             i + 1
           }%29.mp4`;
           video.play();
@@ -326,7 +358,39 @@ req.addEventListener("load", function () {
       let rnd = Math.floor(Math.random() * epLength + 1);
       console.log(rnd);
       {
-        video.src = `https://s3.tebi.io/friends${hashVideo}/s${season}/s${season}%20%28${rnd}%29.mp4`;
+        switch (season) {
+          case "1":
+            hashDownload = "s-01-16/s01%";
+            break;
+          case "2":
+            hashDownload = "s-02-6/s02%";
+            break;
+          case "3":
+            hashDownload = "s-03-9/s03%";
+            break;
+          case "4":
+            hashDownload = "s-04-3/s04%";
+            break;
+          case "5":
+            hashDownload = "s-05-20/s05%";
+            break;
+          case "6":
+            hashDownload = "s-06-11/s06%";
+            break;
+          case "7":
+            hashDownload = "s-07-16/s07%";
+            break;
+          case "8":
+            hashDownload = "s-08-23/s08%";
+            break;
+          case "9":
+            hashDownload = "s-09-23/s09%";
+            break;
+          case "10":
+            hashDownload = "s-10-17/s10%";
+            break;
+        }
+        video.src = `https://archive.org/download/${hashDownload}20%28${rnd}%29.mp4`;
         video.play();
       }
       {
